@@ -16,3 +16,10 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+# Project based
+/resources/scss/.sass-cache
+/resources/scss/app.css
+/resources/scss/app.css.map
+/public/css/app.min.css.map
+/public/js/app.min.js.map
