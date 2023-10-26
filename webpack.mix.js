@@ -13,5 +13,8 @@ mix
 })
     .sourceMaps(false, 'source-map', false);
 
+// Copying Images
+mix.copy('resources/images', 'public/images');
+
 // Copying Fonts
 mix.copy('resources/fonts', 'public/fonts');
