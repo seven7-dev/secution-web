@@ -9,3 +9,6 @@ mix
     processCssUrls: false
 })
     .sourceMaps(false, 'source-map', false);
+
+// Copying Fonts
+mix.copy('resources/fonts', 'public/fonts');

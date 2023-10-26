@@ -2,7 +2,7 @@
     "private": true,
     "scripts": {
         "watch": "mix watch",
-        "production": "mix --production"
+        "production": "rm -rf public/fonts && mix --production"
     },
     "devDependencies": {
         "axios": "^1.1.2",
