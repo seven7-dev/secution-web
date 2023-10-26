@@ -1,5 +1,6 @@
 {
     "/js/app.min.js": "/js/app.min.js",
     "/css/app.min.css": "/css/app.min.css",
+    "/js/all.min.js": "/js/all.min.js",
     "/fonts/test.txt": "/fonts/test.txt"
 }

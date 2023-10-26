@@ -2,6 +2,9 @@ const mix = require('laravel-mix');
 
 // JS Compiling
 mix.js('resources/js/app.js', 'public/js/app.min.js')
+    .scripts([
+        //
+    ], 'public/js/all.min.js')
 
 // CSS Compiling
 mix
