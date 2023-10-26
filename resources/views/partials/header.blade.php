@@ -1,6 +1,6 @@
-<header id="header" class="header default fullWidth">
+<header id="header" class="header default">
     <div class="topbar">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 xs-mb-10">
                     <div class="topbar-call text-center text-md-start">
@@ -38,7 +38,7 @@
     <div class="menu">
         <nav id="menu" class="mega-menu">
             <section class="menu-list-items" style="height: 90px;">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 position-relative">
                             <ul class="menu-logo">
