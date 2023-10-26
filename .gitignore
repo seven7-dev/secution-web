@@ -21,5 +21,8 @@ yarn-error.log
 /resources/scss/.sass-cache
 /resources/scss/app.css
 /resources/scss/app.css.map
+/resources/themes/webster/scss/.sass-cache/
+/resources/themes/webster/scss/style.css
+/resources/themes/webster/scss/style.css.map
 /public/css/app.min.css.map
 /public/js/app.min.js.map
