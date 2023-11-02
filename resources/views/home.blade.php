@@ -5,4 +5,5 @@
         headline="Phishing-Betrug im Umlauf!"
         text="Wir warnen vor Phishing-Betrug, der unter unserem Namen im Umlauf ist.<br>Beachten Sie dringend: Öffnen Sie keine verdächtigen Nachrichten."
     />
+    <x-contact-us />
 @endsection
