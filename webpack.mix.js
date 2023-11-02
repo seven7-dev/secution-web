@@ -13,6 +13,9 @@ mix
 })
     .sourceMaps(false, 'source-map', false);
 
+// Copying CSS
+mix.copy('resources/css', 'public/css');
+
 // Copying Images
 mix.copy('resources/images', 'public/images');
 
