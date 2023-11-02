@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6 sm-mb-30">
                 <div class="footer-logo">
-                    <img id="logo-footer" class="mb-20" src="images/logo.png" alt="">
+                    <img id="logo-footer" class="mb-20" src="../images/logo.png" alt="">
                     <p class="pb-10"> Webster is the most enticing, creative, modern and multipurpose Premium HTML5
                         Template suitable for any business or corporate websites. Build whatever you like with the
                         Webster. It has endless possibilities for creating stunning websites no matter what type of
