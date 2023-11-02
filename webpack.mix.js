@@ -19,5 +19,8 @@ mix.copy('resources/css', 'public/css');
 // Copying Images
 mix.copy('resources/images', 'public/images');
 
+// Copying Videos
+mix.copy('resources/video', 'public/video');
+
 // Copying Fonts
 mix.copy('resources/fonts', 'public/fonts');
