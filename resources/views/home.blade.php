@@ -8,5 +8,6 @@
     <x-video-cta />
     <x-cta />
     <x-latest-works />
+    <x-prices />
     <x-contact-us />
 @endsection
