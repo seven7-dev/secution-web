@@ -9,5 +9,6 @@
     <x-cta />
     <x-latest-works />
     <x-prices />
+    <x-faq />
     <x-contact-us />
 @endsection
