@@ -14,7 +14,7 @@
                             <!-- menu logo -->
                             <ul class="menu-logo">
                                 <li>
-                                    <a href="index-01.html"><img id="logo_img" src="images/logo-dark.png"
+                                    <a href="index-01.html"><img id="logo_img" src="../images/logo-dark.png"
                                             alt="logo"> </a>
                                     <div class="menu-mobile-collapse-trigger"><span></span></div>
                                 </li>
