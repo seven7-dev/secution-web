@@ -36,6 +36,7 @@
                     <ul>
                         <li><a href="{{ route('data-privacy') }}">Data Privacy</a></li>
                         <li><a href="{{ route('imprint') }}">Imprint</a></li>
+                        <li><a href="{{ route('sitemap') }}">Sitemap</a></li>
                     </ul>
                 </div>
             </div>
