@@ -1,81 +1,105 @@
-<section class="portfolio-home gray-bg o-hidden">
-    <div class="container-fluid p-0">
-      <div class="row">
-         <div class="col-lg-4">
-           <div class="portfolio-title section-title mt-md-5">
-               <h6>Super creative</h6>
-               <h2 class="title-effect">Our Latest Works</h2>
-               <p class="mb-20">Work on the best projects for the best clients. Our clients are some of the most forward-looking companies in the world.</p>
-               <span>Webster has powerful options & tools, unlimited designs, responsive framework and amazing support. We are dedicated to providing you with the best experience possible. Purchase webster to find out why the sky's the limit when using Webster.</span>
-               <a class="button mt-30" href="portfolio-classic-3-columns-fullwidth.html"> See all projects </a>
-             </div>
-             <div>
+<section class="portfolio o-hidden">
+  <div class="page-section-pt">
+   <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <div class="section-title text-center">
+             <h6>Our Portfolio</h6>
+             <h2 class="title-effect">Webster's Creativity!</h2>
            </div>
-         </div>
-         <div class="col-lg-8">
-            <div class="isotope popup-gallery columns-3 no-padding">
-               <div class="grid-item">
-                 <div class="portfolio-item">
-                    <img src="images/portfolio/small/01.jpg" alt="">
-                     <div class="portfolio-overlay">
-                         <h4 class="text-white"> <a href="portfolio-single-01.html">Post item image</a> </h4>
-                         <span class="text-white"> <a href="#"> Photography  </a>| <a href="#">Ecommerce </a> </span>
-                    </div>
-                    <a class="popup portfolio-img" href="images/portfolio/small/01.jpg"><i class="fa fa-arrows-alt"></i></a>
-                  </div>
-                </div>
-                <div class="grid-item">
-                 <div class="portfolio-item">
-                    <img src="images/portfolio/small/02.jpg" alt="">
-                     <div class="portfolio-overlay">
-                         <h4 class="text-white"> <a href="portfolio-single-01.html"> Post item image</a> </h4>
-                         <span class="text-white"> <a href="#"> Creative  </a>| <a href="#">Graphics </a> </span>
-                    </div>
-                    <a class="popup portfolio-img" href="images/portfolio/small/02.jpg"><i class="fa fa-arrows-alt"></i></a>
-                  </div>
-                </div>
-                <div class="grid-item">
-                 <div class="portfolio-item">
-                    <img src="images/portfolio/small/03.jpg" alt="">
-                     <div class="portfolio-overlay">
-                         <h4 class="text-white"> <a href="portfolio-single-01.html"> Post item image</a> </h4>
-                         <span class="text-white"> <a href="#"> Design  </a>| <a href="#">Illustration </a> </span>
-                    </div>
-                    <a class="popup portfolio-img" href="images/portfolio/small/03.jpg"><i class="fa fa-arrows-alt"></i></a>
-                  </div>
-                </div>
-                <div class="grid-item">
-                 <div class="portfolio-item">
-                    <img src="images/portfolio/small/04.gif" alt="">
-                     <div class="portfolio-overlay">
-                         <h4 class="text-white"> <a href="portfolio-single-01.html"> Post GIF image</a> </h4>
-                         <span class="text-white"> <a href="#"> Animation </a>| <a href="#">GIF </a> </span>
-                    </div>
-                    <a class="popup portfolio-img" href="images/portfolio/small/04.gif"><i class="fa fa-arrows-alt"></i></a>
-                  </div>
-                </div>
-                <div class="grid-item">
-                 <div class="portfolio-item">
-                    <img src="images/portfolio/small/05.jpg" alt="">
-                     <div class="portfolio-overlay">
-                         <h4 class="text-white"> <a href="portfolio-single-01.html"> Post item Youtube</a> </h4>
-                         <span class="text-white"> <a href="#"> Video  </a>| <a href="#">Youtube </a> </span>
-                    </div>
-                    <a class="popup popup-youtube" href="https://www.youtube.com/watch?v=LgvseYYhqU0"><i class="fa fa-play"></i></a>
-                  </div>
-                </div>
-                <div class="grid-item">
-                 <div class="portfolio-item">
-                    <img src="images/portfolio/small/06.jpg" alt="">
-                     <div class="portfolio-overlay">
-                         <h4 class="text-white"> <a href="portfolio-single-01.html"> Post item image </a> </h4>
-                         <span class="text-white"> <a href="#"> Photography  </a>| <a href="#">Illustration </a> </span>
-                    </div>
-                    <a class="popup portfolio-img" href="images/portfolio/small/06.jpg"><i class="fa fa-arrows-alt"></i></a>
-                  </div>
-                </div>
-            </div>
-         </div>
+        </div>
       </div>
     </div>
-   </section>
+     <div class="isotope-filters">
+       <button data-filter="" class="active">All</button>
+       <button data-filter=".photography" class="">photography</button>
+       <button data-filter=".illustration" class="">illustration</button>
+       <button data-filter=".branding" class="">branding</button>
+       <button data-filter=".web-design" class="">web-design</button>
+  </div>
+ </div>
+ <div class="container-fluid p-0">
+  <div class="isotope popup-gallery columns-4 no-padding" style="position: relative; height: 965.634px;">
+     <div class="grid-item photography illustration" style="position: absolute; left: 0px; top: 0px;">
+       <div class="portfolio-item">
+          <img src="images/portfolio/small/01.jpg" alt="">
+           <div class="portfolio-overlay">
+               <h4 class="text-white"> <a href="portfolio-single-01.html"> Post vimeo video </a> </h4>
+               <span class="text-white"> <a href="#"> Photography  </a>| <a href="#">Illustration </a> </span>
+          </div>
+          <a class="popup popup-youtube" href="https://www.youtube.com/watch?v=LgvseYYhqU0"><i class="fa fa-play"></i></a>
+        </div>
+     </div>
+     <div class="grid-item photography branding" style="position: absolute; left: 643px; top: 0px;">
+       <div class="portfolio-item">
+          <img src="images/portfolio/small/02.jpg" alt="">
+            <div class="portfolio-overlay">
+               <h4 class="text-white"> <a href="portfolio-single-01.html"> Your title here </a> </h4>
+               <span class="text-white"> <a href="#"> Photography  </a>| <a href="#">Branding </a> </span>
+             </div>
+               <a class="popup portfolio-img" href="images/portfolio/small/02.jpg"><i class="fa fa-arrows-alt"></i></a>
+        </div>
+     </div>
+      <div class="grid-item illustration branding" style="position: absolute; left: 1287px; top: 0px;">
+       <div class="portfolio-item">
+          <img src="images/portfolio/small/03.jpg" alt="">
+            <div class="portfolio-overlay">
+               <h4 class="text-white"> <a href="portfolio-single-01.html"> Your title here </a> </h4>
+               <span class="text-white"> <a href="#"> Illustration </a> |<a href="#"> Branding </a> </span>
+             </div>
+               <a class="popup portfolio-img" href="images/portfolio/small/03.jpg"><i class="fa fa-arrows-alt"></i></a>
+        </div>
+     </div>
+     <div class="grid-item web-design" style="position: absolute; left: 1931px; top: 0px;">
+       <div class="portfolio-item">
+          <img src="images/portfolio/small/04.gif" alt="">
+            <div class="portfolio-overlay">
+               <h4 class="text-white"> <a href="portfolio-single-01.html"> Your title here </a> </h4>
+               <span class="text-white"> <a href="#"> Branding </a> | <a href="#"> Web Design </a> </span>
+             </div>
+               <a class="popup portfolio-img" href="images/portfolio/small/04.gif"><i class="fa fa-arrows-alt"></i></a>
+        </div>
+     </div>
+     <div class="grid-item photography illustration" style="position: absolute; left: 0px; top: 482px;">
+       <div class="portfolio-item">
+          <img src="images/portfolio/small/05.jpg" alt="">
+            <div class="portfolio-overlay">
+               <h4 class="text-white"> <a href="portfolio-single-01.html"> Your title here </a> </h4>
+               <span class="text-white"> <a href="#"> Photography  </a>| <a href="#">Illustration </a> </span>
+             </div>
+               <a class="popup portfolio-img" href="images/portfolio/small/05.jpg"><i class="fa fa-arrows-alt"></i></a>
+        </div>
+     </div>
+     <div class="grid-item photography web-design" style="position: absolute; left: 643px; top: 482px;">
+       <div class="portfolio-item">
+          <img src="images/portfolio/small/08.gif" alt="">
+            <div class="portfolio-overlay">
+               <h4 class="text-white"> <a href="portfolio-single-01.html"> Your title here </a> </h4>
+               <span class="text-white"> <a href="#"> Web Design  </a> | <a href="#">Illustration </a> </span>
+             </div>
+               <a class="popup portfolio-img" href="images/portfolio/small/08.gif"><i class="fa fa-arrows-alt"></i></a>
+        </div>
+      </div>
+      <div class="grid-item web-design" style="position: absolute; left: 1287px; top: 482px;">
+       <div class="portfolio-item">
+          <img src="images/portfolio/small/07.jpg" alt="">
+            <div class="portfolio-overlay">
+               <h4 class="text-white"> <a href="portfolio-single-01.html"> Your title here </a> </h4>
+               <span class="text-white"> <a href="#"> Branding </a> | <a href="#"> Web Design </a> </span>
+             </div>
+               <a class="popup portfolio-img" href="images/portfolio/small/07.jpg"><i class="fa fa-arrows-alt"></i></a>
+        </div>
+     </div>
+     <div class="grid-item photography illustration" style="position: absolute; left: 1931px; top: 482px;">
+       <div class="portfolio-item">
+          <img src="images/portfolio/small/06.jpg" alt="">
+           <div class="portfolio-overlay">
+               <h4 class="text-white"> <a href="portfolio-single-01.html"> Post vimeo video </a> </h4>
+               <span class="text-white"> <a href="#"> Photography  </a>| <a href="#">Illustration </a> </span>
+          </div>
+          <a class="popup popup-youtube" href="https://www.youtube.com/watch?v=LgvseYYhqU0"><i class="fa fa-play"></i></a>
+        </div>
+     </div>
+    </div>
+   </div>
+  </section>

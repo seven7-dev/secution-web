@@ -5,10 +5,11 @@
     <x-action-box headline="Phishing-Betrug im Umlauf!"
         text="Wir warnen vor Phishing-Betrug, der unter unserem Namen im Umlauf ist.<br>Beachten Sie dringend: Öffnen Sie keine verdächtigen Nachrichten." />
     <x-our-services />
-    <x-video-cta />
+    <x-cta-banner />
     <x-cta />
     <x-latest-works />
     <x-prices />
-    <x-faq />
+    {{-- <x-faq /> --}}
+    <x-video-cta />
     <x-contact-us />
 @endsection
