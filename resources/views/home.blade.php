@@ -6,10 +6,9 @@
         text="Wir warnen vor Phishing-Betrug, der unter unserem Namen im Umlauf ist.<br>Beachten Sie dringend: Öffnen Sie keine verdächtigen Nachrichten." />
     <x-our-services />
     <x-cta-banner />
-    <x-cta />
     <x-latest-works />
     <x-prices />
-    {{-- <x-faq /> --}}
     <x-video-cta />
+    {{-- <x-faq /> --}}
     <x-contact-us />
 @endsection
