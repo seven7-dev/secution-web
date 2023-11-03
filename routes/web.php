@@ -14,6 +14,7 @@ use App\Http\Controllers\TestimonialsController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MetaController;
 use App\Http\Controllers\SearchController;
+use App\Http\Controllers\SitemapController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,4 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/data-privacy', [MetaController::class, 'dataPrivacyIndex'])->name('data-privacy');
 Route::get('/imprint', [MetaController::class, 'imprintIndex'])->name('imprint');
 Route::get('/search', [SearchController::class, 'index'])->name('search');
+Route::get('/sitemap', [SitemapController::class, 'index'])->name('sitemap');
