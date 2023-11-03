@@ -23,22 +23,19 @@
                     <h6 class="text-white mb-30 mt-10 text-uppercase">Navigation</h6>
                     <ul>
                         <li><a href="{{ route('home') }}">Home</a></li>
-                        <li><a href="{{ route('home') }}">About Us</a></li>
-                        <li><a href="{{ route('home') }}">Service</a></li>
-                        <li><a href="{{ route('home') }}">Team</a></li>
-                        <li><a href="{{ route('home') }}">Contact Us</a></li>
+                        <li><a href="{{ route('about-us') }}">About Us</a></li>
+                        <li><a href="{{ route('services') }}">Services</a></li>
+                        <li><a href="{{ route('testimonials') }}">Testimonials</a></li>
+                        <li><a href="{{ route('contact') }}">Contact</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6 xs-mb-30">
                 <div class="footer-useful-link footer-hedding">
-                    <h6 class="text-white mb-30 mt-10 text-uppercase">Useful Link</h6>
+                    <h6 class="text-white mb-30 mt-10 text-uppercase">Useful Links</h6>
                     <ul>
-                        <li><a href="#">Create Account</a></li>
-                        <li><a href="#">Company Philosophy</a></li>
-                        <li><a href="#">Corporate Culture</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Client Management</a></li>
+                        <li><a href="{{ route('data-privacy') }}">Data Privacy</a></li>
+                        <li><a href="{{ route('imprint') }}">Imprint</a></li>
                     </ul>
                 </div>
             </div>

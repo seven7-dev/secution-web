@@ -1,51 +1,69 @@
-<header id="header" class="header light">
-
-    <!--=================================
-     mega menu -->
-
+<header id="header" class="header default fullWidth">
+    <div class="topbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 xs-mb-10">
+                    <div class="topbar-call text-center text-md-start">
+                        <ul>
+                            <li><i class="fa fa-envelope-o theme-color"></i> {{ env('APP_MAIL') }}</li>
+                            <li><i class="fa fa-phone"></i> <a href="tel:{{ env('APP_PHONE') }}"> <span>{{ env('APP_PHONE') }} </span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="topbar-social text-center text-md-end">
+                        <ul>
+                            <li><a href="#"><span class="ti-facebook"></span></a></li>
+                            <li><a href="#"><span class="ti-instagram"></span></a></li>
+                            <li><a href="#"><span class="fa fa-google"></span></a></li>
+                            <li><a href="#"><span class="ti-twitter"></span></a></li>
+                            <li><a href="#"><span class="ti-linkedin"></span></a></li>
+                            <li><a href="#"><span class="ti-dribbble"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="menu">
-        <!-- menu start -->
-        <nav id="menu" class="mega-menu" style="">
-            <!-- menu list items container -->
-            <section class="menu-list-items" style="height: 90px;">
-                <div class="container">
+        <nav id="menu" class="mega-menu">
+            <section class="menu-list-items">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 position-relative">
-                            <!-- menu logo -->
                             <ul class="menu-logo">
                                 <li>
-                                    <a href="index-01.html"><img id="logo_img" src="../images/logo-dark.png"
-                                            alt="logo"> </a>
-                                    <div class="menu-mobile-collapse-trigger"><span></span></div>
+                                    <a href="index-01.html"><img id="logo_img" src="images/logo.png" alt="logo">
+                                    </a>
                                 </li>
                             </ul>
-                            <!-- menu links -->
                             <div class="menu-bar">
-                                <ul class="menu-links" style="max-height: 400px; display: none;">
-
-                                    <li><a href="javascript:void(0)">Home </a> </li>
-                                    <li class="hoverTrigger"><a href="javascript:void(0)"> About Us
-                                            <i class="fa fa-angle-down fa-indicator"></i>
-                                            <div class="mobileTriggerButton"></div>
-                                        </a>
-                                        <ul class="drop-down-multilevel left-side effect-expand-top"
-                                            style="transition: all 400ms ease 0s;">
-                                            <li><a href="#">About </a> </li>
-                                            <li><a href="#">Services</a> </li>
-                                            <li><a href="#">Careers</a> </li>
-                                            <li><a href="#">Our Team</a> </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="javascript:void(0)">Services </a> </li>
-                                    <li><a href="javascript:void(0)">Blog </a> </li>
-                                    <li><a href="javascript:void(0)">Contacts </a> </li>
+                                <ul class="menu-links">
+                                    <li><a href="{{ route('home') }}">Home</a></li>
+                                    <li><a href="{{ route('about-us') }}">About Us</a></li>
+                                    <li><a href="{{ route('services') }}">Services</a></li>
+                                    <li><a href="{{ route('testimonials') }}">Testimonials</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact</a></li>
                                 </ul>
+                                <div class="search-cart">
+                                    <div class="search">
+                                        <a class="search-btn not_click" href="javascript:void(0);"></a>
+                                        <div class="search-box not-click">
+                                            <form action="search.html" method="get">
+                                                <input type="text" class="not-click form-control" name="search"
+                                                    placeholder="Search.." value="">
+                                                <button class="search-button" type="submit"> <i
+                                                        class="fa fa-search not-click"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
         </nav>
-        <!-- menu end -->
     </div>
 </header>
