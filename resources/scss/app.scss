@@ -1,5 +1,8 @@
-@import '../themes/webster/css/plugins-css.css';
-@import '../themes/webster/css/typography.css';
-@import '../themes/webster/css/shortcodes/shortcodes.css';
-@import '../themes/webster/css/style.css';
-@import '../themes/webster/css/responsive.css';
+@import 'global';
+@import 'page';
+
+// Components
+@import 'components/button';
+@import 'components/breadcrumb';
+@import 'components/topbar';
+@import 'components/menu';

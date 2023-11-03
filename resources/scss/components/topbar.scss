@@ -1,0 +1,18 @@
+#header {
+    .topbar {
+        .topbar-call, .topbar-social {
+            ul {
+                li {
+                    i {
+                        color: $secondary !important;
+                    }
+                    a {
+                        &:hover {
+                            color: $secondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

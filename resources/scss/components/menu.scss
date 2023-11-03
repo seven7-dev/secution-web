@@ -1,0 +1,23 @@
+#menu {
+    .menu-links {
+        li {
+            a {
+                &:hover {
+                    color: $secondary !important;
+                }
+            }
+        }
+    }
+    .search {
+        .search-btn {
+            &:hover {
+                color: $secondary !important;
+            }
+        }
+        .search-box {
+            .search-button {
+                color: $secondary !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.button {
+    background: $secondary;
+    border-color: $secondary;
+    &:hover {
+        background: $primary;
+        border-color: $primary;
+    }
+}

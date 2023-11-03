@@ -1,0 +1,9 @@
+.page-breadcrumb {
+    li {
+        a {
+            &:hover {
+                color: $secondary !important;
+            }
+        }
+    }
+}
