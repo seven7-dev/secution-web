@@ -4,7 +4,7 @@
             <div class="col-lg-12 col-md-12 position-relative">
                 <div class="action-box-text">
                     @if (!empty($headline))
-                        <h3><strong>{{ $headline }}<strong></h3>
+                        <h3><strong>{{ $headline }}</strong></h3>
                     @endif
                     @if (!empty($text))
                         <p>{!! $text !!}</p>
