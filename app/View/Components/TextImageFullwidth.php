@@ -23,6 +23,6 @@ class TextImage extends Component
      */
     public function render()
     {
-        return view('components.text-images');
+        return view('components.text-image-fullwidth');
     }
 }
