@@ -8,7 +8,7 @@
     <x-cta-banner />
     <x-latest-works />
     <x-prices />
+    <x-testimonials />
     <x-video-cta />
-    {{-- <x-faq /> --}}
     <x-contact-us />
 @endsection
