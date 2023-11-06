@@ -2,7 +2,7 @@
     "private": true,
     "scripts": {
         "watch": "mix watch",
-        "production": "rm -rf public/images && rm -rf public/fonts && rm -rf public/css && public/video mix --production"
+        "production": "rm -rf public/images && rm -rf public/fonts && rm -rf public/css && rm -rf public/video mix --production"
     },
     "devDependencies": {
         "axios": "^1.1.2",
