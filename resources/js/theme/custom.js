@@ -107,7 +107,6 @@ var $window = $(window),
        Mega menu
 *************************/
   POTENZA.megaMenu = function () {
-    loadScript(plugin_path + 'mega-menu/mega_menu.js', function() {
       var nav =  $('#menu');
       var l = nav.attr('data-pos');
       var pos = 'horizontal';
@@ -145,7 +144,6 @@ var $window = $(window),
     target.parent().addClass('active');
     $('header .mega-menu li.active').parents('li').addClass('active');
 
-    });
   }
 
 /*************************
@@ -154,7 +152,6 @@ var $window = $(window),
     POTENZA.carousel = function () {
       var owlslider = jQuery("div.owl-carousel");
       if(owlslider.length > 0) {
-         loadScript(plugin_path + 'owl-carousel/owl-carousel.min.js', function() {
            owlslider.each(function () {
             var mydir = $("html").attr("dir");
             if (mydir == 'rtl') {
@@ -197,7 +194,6 @@ var $window = $(window),
                     autoplayHoverPause: true
                 });
            });
-         });
       }
     }
 
@@ -256,7 +252,7 @@ POTENZA.raindrops = function () {
          Isotope
 *************************/
 POTENZA.Isotope = function () {
-   loadScript(plugin_path + 'isotope/isotope.pkgd.min.js', function() {
+
       var $isotope = $(".isotope"),
           $itemElement = '.grid-item',
           $filters = $('.isotope-filters');
@@ -275,14 +271,12 @@ POTENZA.Isotope = function () {
              $(this).addClass('active');
       });
     }
-   });
 }
 
 /*************************
          masonry
 *************************/
 POTENZA.masonry = function () {
-  loadScript(plugin_path + 'isotope/isotope.pkgd.min.js', function() {
     setTimeout(function() {
       var $masonry = $('.masonry-main .masonry'),
           $itemElement = '.masonry-main .masonry-item',
@@ -311,7 +305,7 @@ POTENZA.masonry = function () {
           });
        }
         }, 100);
-   });
+
   }
 
 /*************************
@@ -319,7 +313,6 @@ POTENZA.masonry = function () {
 *************************/
   POTENZA.mediaPopups = function () {
      if ($(".popup-single").exists() || $(".popup-gallery").exists() || $('.modal-onload').exists() || $(".popup-youtube, .popup-vimeo, .popup-gmaps").exists()) {
-      loadScript(plugin_path + 'magnific-popup/jquery.magnific-popup.min.js', function() {
         if ($(".popup-single").exists()) {
              $('.popup-single').magnificPopup({type:'image'});
           }
@@ -373,7 +366,6 @@ POTENZA.masonry = function () {
                   }, 0)
               }, 1500);
          }
-       });
     }
   }
 
@@ -574,7 +566,6 @@ POTENZA.masonry = function () {
         NiceScroll
 *************************/
     POTENZA.pniceScroll = function () {
-        loadScript(plugin_path + 'nicescroll/jquery.nicescroll.js', function() {
         $(".scrollbar").niceScroll({
           scrollspeed: 150,
           mousescrollstep: 38,
@@ -597,7 +588,6 @@ POTENZA.masonry = function () {
           verticalenabled: false,
           cursorborderradius: 0,
         });
-       });
     }
 
 /*************************
