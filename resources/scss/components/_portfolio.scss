@@ -1,0 +1,20 @@
+.portfolio {
+    .isotope {
+        &.popup-gallery {
+            .portfolio-item {
+                .portfolio-overlay {
+                    background: $red;
+                }
+
+                a {
+                    &.popup {
+                        &:hover {
+                            color: $white;
+                            background: $red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

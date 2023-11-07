@@ -31,17 +31,6 @@
                <div class="g-recaptcha section-field clearfix" data-sitekey="6LfNmS0UAAAAAO_ZVFQoQmkGPMlQXmKgVbizHFoq"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-p3dudqdgnu15" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfNmS0UAAAAAO_ZVFQoQmkGPMlQXmKgVbizHFoq&amp;co=aHR0cDovL2xvY2FsaG9zdDo4MDAw&amp;hl=en&amp;v=3sU2vDRVDmUU2E0Ro4VadvPr&amp;size=normal&amp;cb=yk7yvv3ao1zu"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
               <input type="hidden" name="action" value="sendEmail">
                <button id="submit" name="submit" type="submit" value="Send" class="button button-border white mb-20"><span> Send message </span> <i class="fa fa-paper-plane"></i></button>
-              <div class="footer-widget-social float-end">
-               <ul>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-dribbble"></i> </a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i> </a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-dribbble"></i> </a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i> </a></li>
-             </ul>
-           </div>
            </div>
             </form>
            <div id="ajaxloader" style="display:none"><img class="mx-auto mt-30 mb-30 d-block" src="images/pre-loader/loader-02.svg" alt=""></div>

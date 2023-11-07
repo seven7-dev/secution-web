@@ -10,11 +10,21 @@
   background: #1a1a1a !important;
 }
 
-.button {
+section .title-effect {
+  color: #363636;
+}
+section:hover .title-effect.title-effect:nth-child(2n), section:hover .title-effect.title-effect:nth-child(2n+1) {
+  color: #363636;
+}
+section:hover .title-effect.title-effect:nth-child(2n):before, section:hover .title-effect.title-effect:nth-child(2n+1):before {
+  background: #f01c24;
+}
+
+.button:not(.icon-color) {
   background: #f01c24 !important;
   border-color: #f01c24 !important;
 }
-.button:hover {
+.button:not(.icon-color):hover {
   background: #1a1a1a !important;
   border-color: #1a1a1a !important;
 }
@@ -22,6 +32,37 @@
   background: #1a1a1a !important;
   color: #ffffff !important;
   border-color: #1a1a1a !important;
+}
+.button.icon-color {
+  color: inherit;
+}
+.button.icon-color i {
+  border-color: inherit;
+}
+.button.icon-color:hover {
+  color: #f01c24;
+}
+.button.icon-color:hover .fa, .button.icon-color:hover:before {
+  color: #f01c24 !important;
+  background: #f01c24;
+  border-color: #f01c24;
+  color: #ffffff !important;
+}
+.button.icon-color:hover .fa:hover, .button.icon-color:hover:before:hover {
+  background: #f01c24;
+  border-color: #f01c24;
+}
+.button.icon-color:hover .fa:hover:before, .button.icon-color:hover:before:hover:before {
+  color: #ffffff !important;
+}
+
+.isotope-filters button.active {
+  background: #f01c24;
+  border-color: #f01c24;
+}
+.isotope-filters button:hover {
+  background: #f01c24;
+  border-color: #f01c24;
 }
 
 .page-breadcrumb li a:hover {
@@ -76,6 +117,18 @@ footer.footer .footer-widget a {
 
 .blockquote:before {
   color: #f01c24 !important;
+}
+
+ul.list.theme-color li i {
+  color: #f01c24;
+}
+
+.portfolio .isotope.popup-gallery .portfolio-item .portfolio-overlay {
+  background: #f01c24;
+}
+.portfolio .isotope.popup-gallery .portfolio-item a.popup:hover {
+  color: #ffffff;
+  background: #f01c24;
 }
 
 /*# sourceMappingURL=app.min.css.map*/

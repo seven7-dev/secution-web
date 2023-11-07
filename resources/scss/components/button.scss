@@ -1,19 +1,59 @@
 .button {
-    background: $red !important;
-    border-color: $red !important;
+    &:not(.icon-color) {
+        background: $red !important;
+        border-color: $red !important;
 
-    &:hover {
+        &:hover {
+            background: $black !important;
+            border-color: $black !important;
+        }
+    }
+
+    &.button-border.white:hover {
         background: $black !important;
+        color: $white !important;
         border-color: $black !important;
     }
 
-    &.button-border {
-        &.white {
-            &:hover {
-                background: $black !important;
+    &.icon-color {
+        color: inherit;
+
+        i {
+            border-color: inherit;
+        }
+
+        &:hover {
+            color: $red;
+
+            .fa,
+            &:before {
+                color: $red !important;
+                background: $red;
+                border-color: $red;
                 color: $white !important;
-                border-color: $black !important;
+
+                &:hover {
+                    background: $red;
+                    border-color: $red;
+
+                    &:before {
+                        color: $white !important;
+                    }
+                }
             }
+        }
+    }
+}
+
+.isotope-filters {
+    button {
+        &.active {
+            background: $red;
+            border-color: $red;
+        }
+        &:hover {
+            background: $red;
+            border-color: $red;
         }
     }
 }

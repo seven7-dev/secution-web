@@ -1,0 +1,16 @@
+section {
+    .title-effect {
+        color: $light-black;
+    }
+    &:hover {
+        .title-effect {
+            &.title-effect:nth-child(2n),
+            &.title-effect:nth-child(2n+1) {
+                color: $light-black;
+                &:before {
+                    background: $red;
+                }
+            }
+        }
+    }
+}

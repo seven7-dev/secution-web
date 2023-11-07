@@ -1,0 +1,11 @@
+ul {
+    &.list {
+        &.theme-color {
+            li {
+                i {
+                    color: $red;
+                }
+            }
+        }
+    }
+}
