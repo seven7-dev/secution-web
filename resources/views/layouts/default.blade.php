@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
+
 <head>
     @include('includes.head')
     @include('includes.styles')
 </head>
 <body>
 
-@include('includes.noscript')
-
-@include('partials.preloader')
-
-@include('partials.header')
-
-<main>
     <div class="wrapper">
-        @yield('content')
+        @include('includes.noscript')
+
+        @include('partials.preloader')
+
+        @include('partials.header')
+
+        <main>
+            @yield('content')
+        </main>
+
+        @include('partials.footer')
     </div>
-</main>
 
-@include('partials.footer')
+    @include('includes.scripts')
 
-@include('includes.scripts')
-
-{{-- @include('includes.cookies') --}}
+    {{-- @include('includes.cookies') --}}
 
 </body>
+
 </html>

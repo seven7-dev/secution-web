@@ -1,3 +1,3 @@
-<div id="pre-loader" style="display: none;">
-    <img src="images/pre-loader/loader-01.svg" alt="">
+<div id="pre-loader">
+    <img class="img-fluid d-block mx-auto" src="images/pre-loader/loader-06.svg" alt="">
 </div>

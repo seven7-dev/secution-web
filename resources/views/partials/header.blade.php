@@ -5,8 +5,10 @@
                 <div class="col-lg-6 col-md-6 xs-mb-10">
                     <div class="topbar-call text-center text-md-start">
                         <ul>
-                            <li><i class="fa fa-envelope-o theme-color"></i> {{ env('APP_MAIL') }}</li>
-                            <li><i class="fa fa-phone"></i> <a href="tel:{{ env('APP_PHONE') }}"> <span>{{ env('APP_PHONE') }} </span> </a>
+                            <li><i class="fa fa-envelope-o theme-color"></i> <a href="mailto:{{ env('APP_MAIL') }}">
+                                    <span>{{ env('APP_MAIL') }} </span> </a>
+                            <li><i class="fa fa-phone"></i> <a href="tel:{{ env('APP_PHONE') }}">
+                                    <span>{{ env('APP_PHONE') }} </span> </a>
                             </li>
                         </ul>
                     </div>
@@ -34,7 +36,8 @@
                         <div class="col-lg-12 col-md-12 position-relative">
                             <ul class="menu-logo">
                                 <li>
-                                    <a href="{{ route('home') }}"><img id="logo_img" src="images/logo.png" alt="logo">
+                                    <a href="{{ route('home') }}"><img id="logo_img" src="images/logo.png"
+                                            alt="logo">
                                     </a>
                                 </li>
                             </ul>
