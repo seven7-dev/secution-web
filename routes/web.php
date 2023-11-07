@@ -15,6 +15,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MetaController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\SitemapController;
+use App\Http\Controllers\SitemapXmlController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,3 +31,4 @@ Route::get('/data-privacy', [MetaController::class, 'dataPrivacyIndex'])->name('
 Route::get('/imprint', [MetaController::class, 'imprintIndex'])->name('imprint');
 Route::get('/search', [SearchController::class, 'index'])->name('search');
 Route::get('/sitemap', [SitemapController::class, 'index'])->name('sitemap');
+Route::get('/sitemap.xml', [SitemapXmlController::class, 'index'])->name('sitemap_xml');
