@@ -1,1 +1,81 @@
-.black-bg,.theme-bg{background:#282424}.button{background:#f01c24;border-color:#f01c24}.button:hover{background:#282424;border-color:#282424}#header .topbar .topbar-call ul li i,#header .topbar .topbar-social ul li i,.page-breadcrumb li a:hover{color:#f01c24!important}#header .topbar .topbar-call ul li a:hover,#header .topbar .topbar-social ul li a:hover{color:#f01c24}#menu .menu-links li a:hover,#menu .search .search-box .search-button,#menu .search .search-btn:hover{color:#f01c24!important}
+.theme-bg {
+  background: #1a1a1a !important;
+}
+
+.theme-color {
+  color: #f01c24 !important;
+}
+
+.black-bg {
+  background: #1a1a1a !important;
+}
+
+.button {
+  background: #f01c24 !important;
+  border-color: #f01c24 !important;
+}
+.button:hover {
+  background: #1a1a1a !important;
+  border-color: #1a1a1a !important;
+}
+.button.button-border.white:hover {
+  background: #1a1a1a !important;
+  color: #ffffff !important;
+  border-color: #1a1a1a !important;
+}
+
+.page-breadcrumb li a:hover {
+  color: #f01c24 !important;
+}
+
+#header .topbar .topbar-call ul li i, #header .topbar .topbar-social ul li i {
+  color: #f01c24 !important;
+}
+#header .topbar .topbar-call ul li a:hover, #header .topbar .topbar-social ul li a:hover {
+  color: #f01c24;
+}
+
+#menu .menu-links li a:hover {
+  color: #f01c24 !important;
+}
+#menu .search .search-btn:hover {
+  color: #f01c24 !important;
+}
+#menu .search .search-box .search-button {
+  color: #f01c24 !important;
+}
+
+footer.footer .footer-useful-link ul li a:hover {
+  color: #f01c24;
+}
+footer.footer .footer-widget a {
+  color: #f01c24;
+}
+
+.prices .price .header {
+  background: #1a1a1a;
+}
+.prices .price.active .header {
+  background: #f01c24;
+}
+
+#contact-us h2 {
+  color: #363636;
+}
+#contact-us form .form-control {
+  background: #ffffff;
+}
+#contact-us form .footer-widget-social i.fa:hover {
+  background: #f01c24;
+}
+
+.rev-slider .tp-leftarrow:hover:before,
+.rev-slider .tp-rightarrow:hover:before {
+  color: #f01c24;
+}
+
+.blockquote:before {
+  color: #f01c24 !important;
+}
+
+/*# sourceMappingURL=app.min.css.map*/

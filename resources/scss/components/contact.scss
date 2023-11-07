@@ -1,0 +1,19 @@
+#contact-us {
+    h2 {
+        color: #363636;
+    }
+    form {
+        .form-control {
+            background: $white;
+        } 
+        .footer-widget-social {
+            i {
+                &.fa {
+                    &:hover {
+                        background: $red;
+                    }
+                }
+            }
+        } 
+    }
+}

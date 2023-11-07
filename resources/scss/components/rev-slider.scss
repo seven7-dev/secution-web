@@ -1,0 +1,10 @@
+.rev-slider {
+    .tp-leftarrow,
+    .tp-rightarrow {
+        &:hover {
+            &:before {
+                color: $red;
+            }
+        }
+    }
+}

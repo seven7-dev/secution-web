@@ -1,0 +1,12 @@
+.prices {
+    .price {
+        .header {
+            background: $black;
+        }
+        &.active {
+            .header {
+                background: $red;
+            }
+        }
+    }
+}

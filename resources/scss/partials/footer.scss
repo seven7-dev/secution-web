@@ -1,17 +1,19 @@
-#header {
-    .topbar {
-        .topbar-call, .topbar-social {
+footer {
+    &.footer {
+        .footer-useful-link {
             ul {
                 li {
-                    i {
-                        color: $red !important;
-                    }
                     a {
                         &:hover {
                             color: $red;
                         }
                     }
                 }
+            }
+        }
+        .footer-widget {
+            a {
+                color: $red;
             }
         }
     }

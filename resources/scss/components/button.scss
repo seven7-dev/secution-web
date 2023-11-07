@@ -1,8 +1,19 @@
 .button {
-    background: $secondary;
-    border-color: $secondary;
+    background: $red !important;
+    border-color: $red !important;
+
     &:hover {
-        background: $primary;
-        border-color: $primary;
+        background: $black !important;
+        border-color: $black !important;
+    }
+
+    &.button-border {
+        &.white {
+            &:hover {
+                background: $black !important;
+                color: $white !important;
+                border-color: $black !important;
+            }
+        }
     }
 }

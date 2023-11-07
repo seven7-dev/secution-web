@@ -1,4 +1,4 @@
-<section class="page-section-ptb white-bg">
+<section class="page-section-ptb white-bg prices">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

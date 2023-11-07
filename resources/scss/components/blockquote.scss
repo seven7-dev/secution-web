@@ -1,0 +1,5 @@
+.blockquote {
+    &:before {
+        color: $red !important;
+    }
+}
