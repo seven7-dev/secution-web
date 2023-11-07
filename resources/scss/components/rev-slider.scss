@@ -7,4 +7,12 @@
             }
         }
     }
+    .tp-bullet {
+        &.selected {
+            box-shadow: inset 0 0 0 2px $red;
+            &:after {
+                background-color: $red;
+            }
+        }
+    }
 }

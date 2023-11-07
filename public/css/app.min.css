@@ -10,13 +10,31 @@
   background: #1a1a1a !important;
 }
 
-section .title-effect {
+::-moz-selection {
+  background: #f01c24;
+}
+
+::selection {
+  background: #f01c24;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: #f01c24;
+}
+
+section .section-title:nth-child(2n+1) .title-effect:before {
+  background: #f01c24;
+}
+section .section-title .title-effect:not(.text-white) {
+  color: #363636 !important;
+}
+section .section-title:hover .title-effect.title-effect:nth-child(2n), section .section-title:hover .title-effect.title-effect:nth-child(2n+1) {
   color: #363636;
 }
-section:hover .title-effect.title-effect:nth-child(2n), section:hover .title-effect.title-effect:nth-child(2n+1) {
-  color: #363636;
-}
-section:hover .title-effect.title-effect:nth-child(2n):before, section:hover .title-effect.title-effect:nth-child(2n+1):before {
+section .section-title:hover .title-effect.title-effect:nth-child(2n):before, section .section-title:hover .title-effect.title-effect:nth-child(2n+1):before {
   background: #f01c24;
 }
 
@@ -114,12 +132,21 @@ footer.footer .footer-widget a {
 .rev-slider .tp-rightarrow:hover:before {
   color: #f01c24;
 }
+.rev-slider .tp-bullet.selected {
+  box-shadow: inset 0 0 0 2px #f01c24;
+}
+.rev-slider .tp-bullet.selected:after {
+  background-color: #f01c24;
+}
 
 .blockquote:before {
   color: #f01c24 !important;
 }
 
 ul.list.theme-color li i {
+  color: #f01c24;
+}
+ul.list li:after {
   color: #f01c24;
 }
 
@@ -129,6 +156,13 @@ ul.list.theme-color li i {
 .portfolio .isotope.popup-gallery .portfolio-item a.popup:hover {
   color: #ffffff;
   background: #f01c24;
+}
+
+.sitemap a {
+  color: inherit;
+}
+.sitemap a:hover {
+  color: #f01c24 !important;
 }
 
 /*# sourceMappingURL=app.min.css.map*/

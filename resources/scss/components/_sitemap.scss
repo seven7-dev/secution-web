@@ -1,0 +1,9 @@
+.sitemap {
+    a {
+        color: inherit;
+
+        &:hover {
+            color: $red !important;
+        }
+    }
+}

@@ -7,3 +7,12 @@
 .black-bg {
     background: $black !important;
 }
+::selection {
+	background: $red;
+}
+a {
+    color: inherit;
+    &:hover {
+        color: $red;
+    }
+}
