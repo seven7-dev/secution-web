@@ -17,7 +17,7 @@ mix.scripts([
         'resources/js/theme/dependencies/revolution/extensions/revolution.extension.slideanims.min.js',
         'resources/js/theme/dependencies/revolution/extensions/revolution.extension.video.min.js',
         'resources/js/theme/dependencies/revolution/revolution.addon.particles.min.js',
-        'resources/js/theme/dependencies/revolution/revolution-custom.js',
+        'resources/js/theme/dependencies/revolution/revolution-custom.min.js',
         'resources/js/theme/custom.js',
         'resources/js/theme/revolution-settings.js',
     ], 'resources/js/theme.min.js')
@@ -25,10 +25,10 @@ mix.scripts([
 // JS Dependencies Compiling
 mix.scripts([
     'resources/js/theme/dependencies/isotope/isotope.pkgd.min.js',
-    'resources/js/theme/dependencies/mega-menu/mega_menu.js',
+    'resources/js/theme/dependencies/mega-menu/mega_menu.min.js',
     'resources/js/theme/dependencies/owl-carousel/owl-carousel.min.js',
     'resources/js/theme/dependencies/magnific-popup/jquery.magnific-popup.min.js',
-    'resources/js/theme/dependencies/nicescroll/jquery.nicescroll.js'
+    'resources/js/theme/dependencies/nicescroll/jquery.nicescroll.min.js'
 ], 'resources/js/dependencies.min.js')
 
 // App JS
