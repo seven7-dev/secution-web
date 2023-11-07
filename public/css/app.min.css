@@ -165,4 +165,18 @@ ul.list li:after {
   color: #f01c24 !important;
 }
 
+.testimonial-slider .testimonial .testimonial-avatar img {
+  border-color: #f01c24;
+}
+.testimonial-slider .testimonial .testimonial-info:before {
+  color: #f01c24;
+}
+.testimonial-slider .testimonial .author-info strong span {
+  color: #f01c24;
+}
+
+.owl-carousel .owl-dot.active span, .owl-carousel .owl-dot:hover span {
+  background-color: #f01c24 !important;
+}
+
 /*# sourceMappingURL=app.min.css.map*/

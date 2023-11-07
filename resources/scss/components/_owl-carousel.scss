@@ -1,0 +1,11 @@
+.owl-carousel {
+    .owl-dot {
+
+        &.active,
+        &:hover {
+            span {
+                background-color: $red !important;
+            }
+        }
+    }
+}

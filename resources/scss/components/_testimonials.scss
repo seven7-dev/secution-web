@@ -1,0 +1,24 @@
+.testimonial-slider {
+    .testimonial {
+        .testimonial-avatar {
+            img {
+                border-color: $red;
+            }
+        }
+
+        .testimonial-info {
+            &:before {
+                color: $red;
+            }
+        }
+
+        .author-info {
+            strong {
+                span {
+                    color: $red;
+                }
+            }
+
+        }
+    }
+}
