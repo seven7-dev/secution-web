@@ -1,16 +1,19 @@
-@import 'global';
-@import 'fonts';
-@import 'theme';
+// Theme
+@import '../theme/scss/theme';
 
+// Custom Overrides
+@import 'global';
 @import 'page';
 @import 'effects';
 
-// Components
+// Partials Overrides
+@import 'partials/menu';
+@import 'partials/footer';
+
+// Components Overrides
 @import 'components/button';
 @import 'components/breadcrumb';
 @import 'components/topbar';
-@import 'partials/menu';
-@import 'partials/footer';
 @import 'components/prices';
 @import 'components/contact';
 @import 'components/rev-slider';
