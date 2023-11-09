@@ -9,9 +9,6 @@
 {{-- temporarily --}}
 <link rel="stylesheet" href="{{ asset('css/app.min.css')}}">
 
-<!-- Typography -->
-<link rel="stylesheet" type="text/css" href="../css/typography.css" />
-
 <!-- Shortcodes -->
 <link rel="stylesheet" type="text/css" href="../css/shortcodes/shortcodes.css" />
 
