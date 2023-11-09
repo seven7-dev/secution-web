@@ -28,3 +28,5 @@ $themePath: '/resources/theme';
 // Style
 @import url("#{$themePath}/css/style.css");
 
+// Responsive
+@import url("#{$themePath}/css/responsive.css");
