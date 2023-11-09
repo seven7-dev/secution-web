@@ -1,5 +1,4 @@
 {
-    "/css/app.min.css": "/css/app.min.css",
     "/resources/js/theme.min.js": "/resources/js/theme.min.js",
     "/resources/js/dependencies.min.js": "/resources/js/dependencies.min.js",
     "/js/app.min.js": "/js/app.min.js",
@@ -1776,12 +1775,6 @@
     "/video/video.mp4": "/video/video.mp4",
     "/video/video.ogv": "/video/video.ogv",
     "/video/video.webm": "/video/video.webm",
-    "/fonts/fontawesome-webfont.eot": "/fonts/fontawesome-webfont.eot",
-    "/fonts/fontawesome-webfont.svg": "/fonts/fontawesome-webfont.svg",
-    "/fonts/fontawesome-webfont.ttf": "/fonts/fontawesome-webfont.ttf",
-    "/fonts/fontawesome-webfont.woff": "/fonts/fontawesome-webfont.woff",
-    "/fonts/fontawesome-webfont.woff2": "/fonts/fontawesome-webfont.woff2",
-    "/fonts/FontAwesome.otf": "/fonts/FontAwesome.otf",
     "/fonts/google/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRxC7mw9c.woff2": "/fonts/google/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRxC7mw9c.woff2",
     "/fonts/google/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRxi7mw9c.woff2": "/fonts/google/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRxi7mw9c.woff2",
     "/fonts/google/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRxy7mw9c.woff2": "/fonts/google/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRxy7mw9c.woff2",
@@ -1834,10 +1827,5 @@
     "/fonts/google/s/poppins/v20/pxiGyp8kv8JHgFVrJJLucHtA.woff2": "/fonts/google/s/poppins/v20/pxiGyp8kv8JHgFVrJJLucHtA.woff2",
     "/fonts/google/s/poppins/v20/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2": "/fonts/google/s/poppins/v20/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2",
     "/fonts/google/s/poppins/v20/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2": "/fonts/google/s/poppins/v20/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2",
-    "/fonts/google/s/yellowtail/v22/OZpGg_pnoDtINPfRIlLohlvHwQ.woff2": "/fonts/google/s/yellowtail/v22/OZpGg_pnoDtINPfRIlLohlvHwQ.woff2",
-    "/fonts/test.txt": "/fonts/test.txt",
-    "/fonts/themify.eot": "/fonts/themify.eot",
-    "/fonts/themify.svg": "/fonts/themify.svg",
-    "/fonts/themify.ttf": "/fonts/themify.ttf",
-    "/fonts/themify.woff": "/fonts/themify.woff"
+    "/fonts/google/s/yellowtail/v22/OZpGg_pnoDtINPfRIlLohlvHwQ.woff2": "/fonts/google/s/yellowtail/v22/OZpGg_pnoDtINPfRIlLohlvHwQ.woff2"
 }

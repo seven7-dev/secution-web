@@ -53,5 +53,5 @@ mix.copy('resources/images', 'public/images');
 // Copying Videos
 mix.copy('resources/video', 'public/video');
 
-// Copying Fonts
-mix.copy('resources/fonts', 'public/fonts');
+// Copying Google Font Files
+mix.copy('resources/theme/fonts/google/s', 'public/fonts/google/s');
