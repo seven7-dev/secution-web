@@ -1,7 +1,7 @@
 {
     "/css/app.min.css": "/css/app.min.css",
-    "/resources/js/theme.min.js": "/resources/js/theme.min.js",
-    "/resources/js/dependencies.min.js": "/resources/js/dependencies.min.js",
+    "/resources/theme/js/theme.min.js": "/resources/theme/js/theme.min.js",
+    "/resources/theme/js/dependencies.min.js": "/resources/theme/js/dependencies.min.js",
     "/js/app.min.js": "/js/app.min.js",
     "/css/plugins/bootstrap.min.css.map": "/css/plugins/bootstrap.min.css.map",
     "/css/plugins/bootstrap.rtl.min.css": "/css/plugins/bootstrap.rtl.min.css",
