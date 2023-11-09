@@ -53,17 +53,12 @@ mix
     })
     .sourceMaps(false, 'source-map', false);
 
-// Copying CSS
-mix.copy('resources/css', 'public/css');
-
 // Copying Images
 mix.copy('resources/images', 'public/images');
 
 // Copying Videos
 mix.copy('resources/video', 'public/video');
 
-
-// Consider priority!
 // Copying Google Font Files
 mix.copy('resources/theme/fonts/google/s', 'public/fonts/google/s');
 
