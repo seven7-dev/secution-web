@@ -24,3 +24,7 @@ $themePath: '/resources/theme';
 
 // Typography
 @import url("#{$themePath}/css/typography.css");
+
+// Style
+@import url("#{$themePath}/css/style.css");
+
