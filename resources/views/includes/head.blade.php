@@ -6,10 +6,9 @@
 
 <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
 
-<!-- Plugins -->
+{{-- temporarily --}}
 <link rel="stylesheet" href="{{ asset('css/app.min.css')}}">
-<!-- revoluation -->
-<link rel="stylesheet" type="text/css" href="../revolution/css/settings.css" media="screen" />
+
 <link rel="stylesheet" type="text/css" href="../revolution/css/rev-slider-arrow.css" media="screen" />
 
 <!-- Typography -->

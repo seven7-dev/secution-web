@@ -53,14 +53,18 @@ mix.copy('resources/images', 'public/images');
 // Copying Videos
 mix.copy('resources/video', 'public/video');
 
+
+// Consider priority!
 // Copying Google Font Files
 mix.copy('resources/theme/fonts/google/s', 'public/fonts/google/s');
-
 
 // Copying Font Awesome Fonts
 mix.copy('resources/theme/fonts/fontawesome', 'public/fonts/fontawesome');
 
 // Copying Themify Fonts
 mix.copy('resources/theme/fonts/themify', 'public/fonts/themify');
+
+// Copying Revoultion Fonts
+mix.copy('resources/theme/revolution/fonts/revicons', 'public/fonts/revicons');
 
 

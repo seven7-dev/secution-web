@@ -1826,5 +1826,9 @@
     "/fonts/themify/themify.eot": "/fonts/themify/themify.eot",
     "/fonts/themify/themify.svg": "/fonts/themify/themify.svg",
     "/fonts/themify/themify.ttf": "/fonts/themify/themify.ttf",
-    "/fonts/themify/themify.woff": "/fonts/themify/themify.woff"
+    "/fonts/themify/themify.woff": "/fonts/themify/themify.woff",
+    "/fonts/revicons/revicons.eot": "/fonts/revicons/revicons.eot",
+    "/fonts/revicons/revicons.svg": "/fonts/revicons/revicons.svg",
+    "/fonts/revicons/revicons.ttf": "/fonts/revicons/revicons.ttf",
+    "/fonts/revicons/revicons.woff": "/fonts/revicons/revicons.woff"
 }
