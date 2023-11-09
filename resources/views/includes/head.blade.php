@@ -9,8 +9,6 @@
 {{-- temporarily --}}
 <link rel="stylesheet" href="{{ asset('css/app.min.css')}}">
 
-<link rel="stylesheet" type="text/css" href="../revolution/css/rev-slider-arrow.css" media="screen" />
-
 <!-- Typography -->
 <link rel="stylesheet" type="text/css" href="../css/typography.css" />
 
