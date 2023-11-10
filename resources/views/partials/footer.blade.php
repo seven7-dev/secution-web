@@ -46,7 +46,7 @@
                     <li><i class="fa fa-map-marker"></i>
                         <p>{{ env('APP_ADDRESS') }}</p>
                     </li>
-                    <li><i class="fa fa-phone"></i> <a href="tel:{{ env('APP_PHONE') }}"> <span>{{ env('APP_PHONE') }} </span> </a> </li>
+                    <li><i class="fa fa-phone"></i> <a href="tel:{{ \App\View\Helpers\Helper::sanitizePhoneNumber(env('APP_PHONE')) }}"> <span>{{ env('APP_PHONE') }} </span> </a> </li>
                     <li><i class="fa fa-envelope-o"></i>Email: {{ env('APP_MAIL') }}</li>
                 </ul>
             </div>

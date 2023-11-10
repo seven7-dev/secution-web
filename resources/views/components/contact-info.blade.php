@@ -20,10 +20,10 @@
 
                         <ul class="addresss-info list-unstyled">
                             <li><i class="ti-map-alt"></i>
-                                <p>Address: 17504 Carlton Cuevas Rd, Gulfport, MS, 39503</p>
+                                <p>Address: {{ env('APP_ADDRESS') }}</p>
                             </li>
-                            <li><i class="ti-mobile"></i>Phone: +(704) 279-1249</li>
-                            <li><i class="ti-email"></i>Email: letstalk@webster.com</li>
+                            <li><i class="ti-mobile"></i>Phone: {{ env('APP_PHONE') }}</li>
+                            <li><i class="ti-email"></i>Email: {{ env('APP_MAIL') }}</li>
                         </ul>
                         <div class="social-icons social-border rounded color-hover mt-50">
                             <ul>

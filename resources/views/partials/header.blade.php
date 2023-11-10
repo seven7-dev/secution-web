@@ -7,7 +7,7 @@
                         <ul>
                             <li><i class="fa fa-envelope-o theme-color"></i> <a href="mailto:{{ env('APP_MAIL') }}">
                                     <span>{{ env('APP_MAIL') }} </span> </a>
-                            <li><i class="fa fa-phone"></i> <a href="tel:{{ env('APP_PHONE') }}">
+                            <li><i class="fa fa-phone"></i> <a href="tel:{{ \App\View\Helpers\Helper::sanitizePhoneNumber(env('APP_PHONE')) }}">
                                     <span>{{ env('APP_PHONE') }} </span> </a>
                             </li>
                         </ul>

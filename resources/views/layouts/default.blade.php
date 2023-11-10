@@ -5,6 +5,7 @@
     @include('includes.head')
     {{-- @include('includes.styles') --}}
 </head>
+
 <body>
 
     <div class="wrapper">
@@ -13,9 +14,9 @@
         @include('partials.preloader')
 
         <x-action-box headline="Phishing-Betrug im Umlauf!"
-        text="Wir warnen vor Phishing-Betrug, der unter unserem Namen im Umlauf ist.<br>Beachten Sie dringend: Öffnen Sie keine verdächtigen Nachrichten."
-        backgroundColor="red" cssClasses="center phishing-alert" />
-        
+            text="Wir warnen vor Phishing-Betrug, der unter unserem Namen im Umlauf ist.<br>Beachten Sie dringend: Öffnen Sie keine verdächtigen Nachrichten."
+            backgroundColor="red" cssClasses="center phishing-alert" />
+
         @include('partials.header')
 
         <main>
