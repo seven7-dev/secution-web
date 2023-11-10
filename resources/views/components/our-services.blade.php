@@ -1,13 +1,13 @@
 <section class="our-service page-section-ptb">
     <div class="objects-left">
         <img class="objects-1 img-fluid wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="2.0s"
-            src="images/objects/01.png" alt=""
+            src="{{ asset('images/objects/01.png') }}" alt=""
             style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInLeft;">
         <img class="objects-2 img-fluid wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="2.0s"
-            src="images/objects/02.png" alt=""
+            src="{{ asset('images/objects/02.png') }}" alt=""
             style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: fadeInLeft;">
         <img class="objects-3 img-fluid wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="2.0s"
-            src="images/objects/03.png" alt=""
+            src="{{ asset('images/objects/03.png') }}" alt=""
             style="visibility: visible; animation-duration: 2s; animation-delay: 0.6s; animation-name: fadeInUp;">
     </div>
     <div class="container">
@@ -115,10 +115,10 @@
     </div>
     <div class="objects-right">
         <img class="objects-4 img-fluid wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="2.0s"
-            src="images/objects/04.png" alt=""
+            src="{{ asset('images/objects/04.png') }}" alt=""
             style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInRight;">
         <img class="objects-5 img-fluid wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="2.0s"
-            src="images/objects/05.png" alt=""
+            src="i{{ asset('images/objects/05.png') }}" alt=""
             style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: fadeInRight;">
     </div>
 </section>

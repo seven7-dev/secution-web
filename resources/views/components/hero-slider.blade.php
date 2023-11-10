@@ -8,13 +8,13 @@
                 <!-- SLIDE  -->
                 <li data-index="rs-217" data-transition="cube" data-slotamount="default" data-hideafterloop="0"
                     data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default"
-                    data-thumb="images/hero-example.jpg" data-rotate="0"
+                    data-thumb="{{ asset('images/hero-example.jpg') }}" data-rotate="0"
                     data-fstransition="fade" data-fsmasterspeed="300" data-fsslotamount="7" data-saveperformance="off"
                     data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                     data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="images/hero-example.jpg" alt=""
-                        data-lazyload="images/hero-example.jpg" data-bgposition="center center"
+                    <img src="{{ asset('images/hero-example.jpg') }}" alt=""
+                        data-lazyload="{{ asset('images/hero-example.jpg') }}" data-bgposition="center center"
                         data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg"
                         data-no-retina>
                     <!-- LAYERS -->
@@ -63,13 +63,13 @@
                 <!-- SLIDE  -->
                 <li data-index="rs-218" data-transition="cube" data-slotamount="default" data-hideafterloop="0"
                     data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default"
-                    data-thumb="images/hero-example.jpg" data-rotate="0"
+                    data-thumb="{{ asset('images/hero-example.jpg') }}" data-rotate="0"
                     data-fstransition="fade" data-fsmasterspeed="300" data-fsslotamount="7" data-saveperformance="off"
                     data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
                     data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="images/hero-example.jpg" alt=""
-                        data-lazyload="images/hero-example.jpg" data-bgposition="center center"
+                    <img src="{{ asset('images/hero-example.jpg') }}" alt=""
+                        data-lazyload="{{ asset('images/hero-example.jpg') }}" data-bgposition="center center"
                         data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg"
                         data-no-retina>
                     <!-- LAYERS -->

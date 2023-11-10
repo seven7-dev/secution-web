@@ -11,7 +11,7 @@
                </div>
                <div class="testimonial-info mt-20">
                  <div class="testimonial-avtar d-table-cell align-top pr-20">
-                   <img class="img-fluid" src="images/team/03.jpg" alt="">
+                   <img class="img-fluid" src="{{ asset('images/team/03.jpg') }}" alt="">
                  </div>
                  <div class="testimonial-name d-table-cell align-top">
                     <strong>savvyone</strong>
@@ -28,7 +28,7 @@
              </div>
              <div class="testimonial-info mt-20">
                <div class="testimonial-avtar d-table-cell align-top pr-20">
-                 <img class="img-fluid" src="images/team/05.jpg" alt="">
+                 <img class="img-fluid" src="{{ asset('images/team/05.jpg') }}" alt="">
                </div>
                <div class="testimonial-name d-table-cell align-top">
                   <strong>fielmonk23</strong>
@@ -45,7 +45,7 @@
                </div>
                <div class="testimonial-info mt-20">
                  <div class="testimonial-avtar d-table-cell align-top pr-20">
-                   <img class="img-fluid" src="images/team/02.jpg" alt="">
+                   <img class="img-fluid" src="{{ asset('images/team/02.jpg') }}" alt="">
                  </div>
                  <div class="testimonial-name d-table-cell align-top">
                     <strong>DutcaPatrick</strong>
@@ -63,7 +63,7 @@
                </div>
                <div class="testimonial-info mt-20">
                  <div class="testimonial-avtar d-table-cell align-top pr-20">
-                   <img class="img-fluid" src="images/team/04.jpg" alt="">
+                   <img class="img-fluid" src="{{ asset('images/team/04.jpg') }}" alt="">
                  </div>
                  <div class="testimonial-name d-table-cell align-top">
                    <strong>serjiomati</strong>
@@ -80,7 +80,7 @@
                </div>
                <div class="testimonial-info mt-20">
                  <div class="testimonial-avtar d-table-cell align-top pr-20">
-                   <img class="img-fluid" src="images/team/06.jpg" alt="">
+                   <img class="img-fluid" src="{{ asset('images/team/06.jpg') }}" alt="">
                  </div>
                  <div class="testimonial-name d-table-cell align-top">
                     <strong>wdcorbitt</strong>
@@ -97,7 +97,7 @@
                </div>
                <div class="testimonial-info mt-20">
                  <div class="testimonial-avtar d-table-cell align-top pr-20">
-                   <img class="img-fluid" src="images/team/07.jpg" alt="">
+                   <img class="img-fluid" src="{{ asset('images/team/07.jpg') }}" alt="">
                  </div>
                  <div class="testimonial-name d-table-cell align-top">
                     <strong> DutcaPatrick </strong>
@@ -114,7 +114,7 @@
                </div>
                <div class="testimonial-info mt-20">
                  <div class="testimonial-avtar d-table-cell align-top pr-20">
-                   <img class="img-fluid" src="images/team/08.jpg" alt="">
+                   <img class="img-fluid" src="{{ asset('images/team/08.jpg') }}" alt="">
                  </div>
                  <div class="testimonial-name d-table-cell align-top">
                     <strong>m_morsch</strong>
@@ -131,7 +131,7 @@
                </div>
                <div class="testimonial-info mt-20">
                  <div class="testimonial-avtar d-table-cell align-top pr-20">
-                   <img class="img-fluid" src="images/team/09.jpg" alt="">
+                   <img class="img-fluid" src="{{ asset('images/team/09.jpg') }}" alt="">
                  </div>
                  <div class="testimonial-name d-table-cell align-top">
                     <strong>turbocrusher</strong>
@@ -148,7 +148,7 @@
                </div>
                <div class="testimonial-info mt-20">
                  <div class="testimonial-avtar d-table-cell align-top pr-20">
-                   <img class="img-fluid" src="images/team/10.jpg" alt="">
+                   <img class="img-fluid" src="{{ asset('images/team/10.jpg') }}" alt="">
                  </div>
                  <div class="testimonial-name d-table-cell align-top">
                     <strong>idesoft</strong>
@@ -165,7 +165,7 @@
                </div>
                <div class="testimonial-info mt-20">
                  <div class="testimonial-avtar d-table-cell align-top pr-20">
-                   <img class="img-fluid" src="images/team/11.jpg" alt="">
+                   <img class="img-fluid" src="{{ asset('images/team/11.jpg') }}" alt="">
                  </div>
                  <div class="testimonial-name d-table-cell align-top">
                     <strong>ansalpa</strong>
@@ -182,7 +182,7 @@
                </div>
                <div class="testimonial-info mt-20">
                  <div class="testimonial-avtar d-table-cell align-top pr-20">
-                   <img class="img-fluid" src="images/team/01.jpg" alt="">
+                   <img class="img-fluid" src="{{ asset('images/team/01.jpg') }}" alt="">
                  </div>
                  <div class="testimonial-name d-table-cell align-top">
                     <strong>AnnaHorno</strong>

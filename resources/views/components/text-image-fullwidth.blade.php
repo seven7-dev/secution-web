@@ -1,7 +1,7 @@
 <section class="about-05-split split-section gray-bg page-section-ptb">
   <div class="side-background">
     <div class="col-lg-6 img-side img-left">
-         <div class="img-holder img-cover" style="background-image: url(images/bg/02.jpg);">
+         <div class="img-holder img-cover" style="background-image: url({{ asset('images/bg/02.jpg') }});">
         </div>
       </div>
   </div>
@@ -44,7 +44,7 @@
 <section class="about-05-split split-section gray-bg page-section-ptb">
   <div class="side-background">
     <div class="col-lg-6 img-side img-right">
-         <div class="img-holder img-cover" style="background-image: url(images/bg/17.jpg);">
+         <div class="img-holder img-cover" style="background-image: url({{ asset('images/bg/17.jpg') }});">
         </div>
       </div>
     </div>

@@ -36,7 +36,7 @@
                         <div class="col-lg-12 col-md-12 position-relative">
                             <ul class="menu-logo">
                                 <li>
-                                    <a href="{{ route('home') }}"><img id="logo_img" src="images/logo.png"
+                                    <a href="{{ route('home') }}"><img id="logo_img" src="{{ asset('images/logo.png') }}"
                                             alt="logo">
                                     </a>
                                 </li>

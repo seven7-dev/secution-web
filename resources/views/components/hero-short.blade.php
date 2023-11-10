@@ -1,4 +1,4 @@
-<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-img-src="../images/bg/02.jpg">
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-img-src="{{ asset('images/bg/02.jpg') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

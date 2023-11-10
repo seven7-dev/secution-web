@@ -33,7 +33,7 @@
                <button id="submit" name="submit" type="submit" value="Send" class="button button-border white mb-20"><span> Send message </span> <i class="fa fa-paper-plane"></i></button>
            </div>
             </form>
-           <div id="ajaxloader" style="display:none"><img class="mx-auto mt-30 mb-30 d-block" src="images/pre-loader/loader-02.svg" alt=""></div>
+           <div id="ajaxloader" style="display:none"><img class="mx-auto mt-30 mb-30 d-block" src="{{ asset('images/pre-loader/loader-02.svg') }}" alt=""></div>
           </div>
           </div>
         </div>

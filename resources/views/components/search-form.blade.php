@@ -1,4 +1,4 @@
-<section class="page-title faq-page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-img-src="images/bg/02.jpg" style="z-index: 0;">
+<section class="page-title faq-page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-img-src="{{ asset('images/bg/02.jpg') }}" style="z-index: 0;">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -19,4 +19,4 @@
         </div>
        </div>
     </div>
-  <div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;" id="jarallax-container-0"><img src="images/bg/02.jpg" style="object-fit: cover; object-position: 50% 50%; max-width: none; position: fixed; top: 0px; left: 0px; width: 2560px; height: 485.2px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: -71.1px; transform: translate3d(0px, 71.1px, 0px);"></div></section>
+  <div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;" id="jarallax-container-0"><img src="{{ asset('images/bg/02.jpg') }}" style="object-fit: cover; object-position: 50% 50%; max-width: none; position: fixed; top: 0px; left: 0px; width: 2560px; height: 485.2px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: -71.1px; transform: translate3d(0px, 71.1px, 0px);"></div></section>
