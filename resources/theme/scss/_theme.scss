@@ -6,27 +6,27 @@ $themePath: '/resources/theme';
 
 // Plugins
 @import url("#{$themePath}/css/plugins/bootstrap.min.css");
-@import url("#{$themePath}/css/plugins/mega_menu.css");
-@import url("#{$themePath}/css/plugins/animate.css");
+@import url("#{$themePath}/css/plugins/mega_menu.min.css");
+@import url("#{$themePath}/css/plugins/animate.min.css");
 @import url("#{$themePath}/css/plugins/font-awesome.min.css");
 @import url("#{$themePath}/css/plugins/bootstrap-datetimepicker.min.css");
 @import url("#{$themePath}/css/plugins/dataTables.bootstrap4.min.css");
-@import url("#{$themePath}/css/plugins/magnific-popup.css");
-@import url("#{$themePath}/css/plugins/mediaelementplayer.css");
+@import url("#{$themePath}/css/plugins/magnific-popup.min.css");
+@import url("#{$themePath}/css/plugins/mediaelementplayer.min.css");
 @import url("#{$themePath}/css/plugins/owl.carousel.min.css");
-@import url("#{$themePath}/css/plugins/slick-theme.css");
-@import url("#{$themePath}/css/plugins/themify-icons.css");
-@import url("#{$themePath}/css/plugins/fullcalendar.css");
+@import url("#{$themePath}/css/plugins/slick-theme.min.css");
+@import url("#{$themePath}/css/plugins/themify-icons.min.css");
+@import url("#{$themePath}/css/plugins/fullcalendar.min.css");
 
 // Revolution
-@import url("#{$themePath}/revolution/css/settings.css");
-@import url("#{$themePath}/revolution/css/rev-slider-arrow.css");
+@import url("#{$themePath}/revolution/css/settings.min.css");
+@import url("#{$themePath}/revolution/css/rev-slider-arrow.min.css");
 
 // Typography
-@import url("#{$themePath}/css/typography.css");
+@import url("#{$themePath}/css/typography.min.css");
 
 // Style
-@import url("#{$themePath}/css/style.css");
+@import url("#{$themePath}/css/style.min.css");
 
 // Responsive
-@import url("#{$themePath}/css/responsive.css");
+@import url("#{$themePath}/css/responsive.min.css");
