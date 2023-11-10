@@ -1,0 +1,15 @@
+.rev_slider {
+    &.fullwidthabanner {
+        .tp-revslider-slidesli {
+            .tp-mask-wrap {
+                .tp-withaction {
+                    transition: .3s ease-out !important;
+                    &:hover {
+                        color: $white !important;
+                        background-color: $red !important;
+                    }
+                }
+            }
+        }
+    }
+}

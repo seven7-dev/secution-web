@@ -1025,6 +1025,16 @@ ul.list li:after {
   background-color: #f01c24 !important;
 }
 
+.action-box.phishing-alert {
+  padding: 1rem !important;
+}
+.action-box.phishing-alert h3 {
+  font-size: 1rem !important;
+  line-height: 1rem !important;
+}
+.action-box.phishing-alert p {
+  font-size: 0.875rem !important;
+}
 .action-box.red-bg {
   padding: 1.875rem;
 }
@@ -1036,6 +1046,14 @@ ul.list li:after {
 }
 .action-box.red-bg a.button {
   background-color: #ffffff !important;
+}
+
+.rev_slider.fullwidthabanner .tp-revslider-slidesli .tp-mask-wrap .tp-withaction {
+  transition: 0.3s ease-out !important;
+}
+.rev_slider.fullwidthabanner .tp-revslider-slidesli .tp-mask-wrap .tp-withaction:hover {
+  color: #ffffff !important;
+  background-color: #f01c24 !important;
 }
 
 /*# sourceMappingURL=app.min.css.map*/

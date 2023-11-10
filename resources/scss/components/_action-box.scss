@@ -1,4 +1,14 @@
 .action-box {
+    &.phishing-alert {
+        padding: convert(16) !important;
+        h3 {
+            font-size: convert(16) !important;
+            line-height: convert(16) !important;
+        }
+        p {
+            font-size: convert(14) !important;
+        }
+    }
     &.red-bg {
         padding: convert(30);
 
