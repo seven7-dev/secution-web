@@ -1,4 +1,4 @@
-<section class="action-box black-bg full-width">
+<section class="action-box {{ $backgroundColor }}-bg full-width{{ $helper->setCssClasses($cssClasses)}}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 position-relative">

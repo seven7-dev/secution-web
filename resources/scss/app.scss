@@ -1,6 +1,10 @@
 // Theme
 @import '../theme/scss/theme';
 
+// Functions and Mixins
+@import "functions";
+@import "mixins";
+
 // Custom Overrides
 @import 'global';
 @import 'page';
@@ -23,3 +27,4 @@
 @import 'components/sitemap';
 @import 'components/testimonials';
 @import 'components/owl-carousel';
+@import 'components/action-box';

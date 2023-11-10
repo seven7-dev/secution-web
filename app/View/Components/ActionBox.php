@@ -9,20 +9,22 @@ class ActionBox extends BaseComponent
     public $linkUrl;
     public $linkLabel;
     public $linkExternal;
+    public $backgroundColor;
 
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($headline = null, $text = null, $linkUrl = null, $linkLabel = null, $linkExternal = false)
+    public function __construct($cssClasses = null, $headline = null, $text = null, $linkUrl = null, $linkLabel = null, $linkExternal = false, $backgroundColor = null)
     {
+        parent::__construct($cssClasses);
         $this->headline = $headline;
         $this->text = $text;
         $this->linkUrl = $linkUrl;
         $this->linkLabel = $linkLabel;
         $this->linkExternal = $linkExternal;
-        $this->cssClasses = "";
+        $this->backgroundColor = $backgroundColor;
     }
 
     /**
