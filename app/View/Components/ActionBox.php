@@ -2,9 +2,7 @@
 
 namespace App\View\Components;
 
-use Illuminate\View\Component;
-
-class ActionBox extends Component
+class ActionBox extends BaseComponent
 {
     public $headline;
     public $text;
@@ -24,6 +22,7 @@ class ActionBox extends Component
         $this->linkUrl = $linkUrl;
         $this->linkLabel = $linkLabel;
         $this->linkExternal = $linkExternal;
+        $this->cssClasses = "";
     }
 
     /**
