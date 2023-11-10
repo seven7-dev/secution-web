@@ -58,7 +58,7 @@ mix
     // Images
     .copy('resources/images', 'public/images')
     // Videos
-    .copy('resources/video', 'public/video')
+    .copy('resources/videos', 'public/videos')
     // Fonts
     .copy('resources/theme/fonts/google/s', 'public/fonts/google/s')
     .copy('resources/theme/fonts/fontawesome', 'public/fonts/fontawesome')
