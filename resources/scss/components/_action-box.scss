@@ -1,5 +1,18 @@
 .action-box {
     &.red-bg {
         padding: convert(30);
+
+        .action-box-text {
+            * {
+                color: $white;
+            }
+        }
+
+        a {
+            color: $red !important;
+            &.button {
+                background-color: $white !important;
+            }
+        }
     }
 }

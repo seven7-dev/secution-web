@@ -12,8 +12,8 @@
                </div>
                 <div class="error-info">
                     <p class="mb-50">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
-                    <a class="button xs-mb-10 " href="index-01.html">back to home</a>
-                    <a class="button button-border black" href="#">back to Prev page</a>
+                    <a class="button xs-mb-10" href="index-01.html">back to home</a>
+                    <a class="button" href="#">back to Prev page</a>
                 </div>
             </div>
         </div>

@@ -1,22 +1,38 @@
-#menu {
-    .menu-links {
-        li {
-            a {
+#header {
+    @include mobile-tablet {
+        background: $black;
+    }
+
+    #menu {
+
+        &.mobileTopFixed,
+        &.desktopTopFixed {
+            .menu-list-items {
+                background: $black;
+            }
+        }
+
+        .menu-links {
+            li {
+                a {
+                    &:hover {
+                        color: $red !important;
+                    }
+                }
+            }
+        }
+
+        .search {
+            .search-btn {
                 &:hover {
                     color: $red !important;
                 }
             }
-        }
-    }
-    .search {
-        .search-btn {
-            &:hover {
-                color: $red !important;
-            }
-        }
-        .search-box {
-            .search-button {
-                color: $red !important;
+
+            .search-box {
+                .search-button {
+                    color: $red !important;
+                }
             }
         }
     }

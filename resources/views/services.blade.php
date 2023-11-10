@@ -5,6 +5,6 @@
     <x-services-detail />
     <x-cta-banner-short />
     <x-prices />
-    <x-action-box headline="Phishing-Betrug im Umlauf!"
-    text="Wir warnen vor Phishing-Betrug, der unter unserem Namen im Umlauf ist.<br>Beachten Sie dringend: Öffnen Sie keine verdächtigen Nachrichten." linkLabel="Mehr" linkUrl="https://www.google.de" linkExternal="true"/>
+    <x-action-box headline="Lorem ipsum dolor sit amet"
+    text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonu." linkLabel="Mehr" linkUrl="{{ route('home') }}" linkExternal="true" backgroundColor="red"/>
 @endsection

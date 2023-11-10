@@ -876,13 +876,21 @@ section .section-title:hover .title-effect.title-effect:nth-child(2n):before, se
   background: #f01c24;
 }
 
-#menu .menu-links li a:hover {
+@media (max-width: 991px) {
+  #header {
+    background: #1a1a1a;
+  }
+}
+#header #menu.mobileTopFixed .menu-list-items, #header #menu.desktopTopFixed .menu-list-items {
+  background: #1a1a1a;
+}
+#header #menu .menu-links li a:hover {
   color: #f01c24 !important;
 }
-#menu .search .search-btn:hover {
+#header #menu .search .search-btn:hover {
   color: #f01c24 !important;
 }
-#menu .search .search-box .search-button {
+#header #menu .search .search-box .search-button {
   color: #f01c24 !important;
 }
 
@@ -1019,6 +1027,15 @@ ul.list li:after {
 
 .action-box.red-bg {
   padding: 1.875rem;
+}
+.action-box.red-bg .action-box-text * {
+  color: #ffffff;
+}
+.action-box.red-bg a {
+  color: #f01c24 !important;
+}
+.action-box.red-bg a.button {
+  background-color: #ffffff !important;
 }
 
 /*# sourceMappingURL=app.min.css.map*/

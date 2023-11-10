@@ -14,7 +14,7 @@
                     <div class="action-box-button">
                         <a class="button button-border white" href="{{ $linkUrl }}"
                             @if ($linkExternal) target="_blank" @endif>{{ $linkLabel }}
-                            <i class="fa fa-hand-o-right"></i>
+                            <i class="fa fa-angle-right"></i>
                         </a>
                     </div>
                 @endif
