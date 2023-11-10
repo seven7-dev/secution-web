@@ -27,7 +27,6 @@
              <textarea class="input-message form-control" placeholder="Comment*" rows="7" name="message"></textarea>
             </div>
               <!-- Google reCaptch-->
-              <!-- <div class="g-recaptcha section-field clearfix" data-sitekey="6LfNmS0UAAAAAO_ZVFQoQmkGPMlQXmKgVbizHFoq"></div> -->
               <div class="section-field submit-button">
                   <input type="hidden" name="action" value="sendEmail">
                  <button id="submit" name="submit" type="submit" value="Send" class="button"><span> Send message </span> <i class="fa fa-paper-plane"></i></button>

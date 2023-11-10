@@ -2,10 +2,12 @@
     h2 {
         color: #363636;
     }
+
     form {
         .form-control {
             background: $white;
-        } 
+        }
+
         .footer-widget-social {
             i {
                 &.fa {
@@ -14,6 +16,16 @@
                     }
                 }
             }
-        } 
+        }
+    }
+
+    
+}
+
+#contact-us, .contact-2 {
+    .map {
+        img {
+            height: 100vh;
+        }
     }
 }
