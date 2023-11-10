@@ -4158,7 +4158,7 @@ ul.list-edit li:after {
 }
 
 .mfp-container {
-  cursor: url("../../images/close.png") 25 25, pointer;
+  cursor: url("../../images/icons/close.png") 25 25, pointer;
 }
 
 .modal-simple-content {
@@ -5401,7 +5401,7 @@ section:nth-child(odd) .title-effect.dark::before {
   -o-transition: opacity 0.5s;
   -moz-transition: opacity 0.5s;
   transition: opacity 0.5s;
-  cursor: url("../../images/close.png") 25 25, pointer;
+  cursor: url("../../images/icons/close.png") 25 25, pointer;
 }
 
 .st-menu-open .st-menu::after {
