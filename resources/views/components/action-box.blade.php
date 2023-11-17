@@ -19,7 +19,7 @@
                             </a>
                         @else
                             <a class="button button-border white"
-                                href="{{ app('Helper')->getRouteHref($linkUrl, app()->getLocale()) }}">{{ $linkLabel }}
+                                href="{{ app('Helper')->getRouteHref($linkUrl) }}">{{ $linkLabel }}
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         @endif

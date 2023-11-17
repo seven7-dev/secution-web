@@ -10,6 +10,7 @@ return [
 
     'pages' => [
         'home' => [
+            'title' => 'Home',
             'elements' => [
                 'video_cta' => [
                     'headline' => 'Schöner HTML5 Videohintergrund',
@@ -27,7 +28,26 @@ return [
                 ],
             ],
         ],
+        'about-us' => [
+            'title' => 'Über uns'
+        ],
+        'services' => [
+            'title' => 'Services'
+        ],
+        'testimonials' => [
+            'title' => 'Referenzen'
+        ],
+        'contact' => [
+            'title' => 'Kontakt'
+        ],
+        'imprint' => [
+            'title' => 'Impressum'
+        ],
+        'data-privacy' => [
+            'title' => 'Datenschutzerklärung'
+        ],
         '404' => [
+            'title' => '404',
             'elements' => [
                 'not_found' => [
                     'headline' => 'Ooopps :(',

@@ -31,7 +31,7 @@
                                     href="{{ $linkUrl }}" target="_blank">{{ $linkLabel }}</a>
                             @else
                                 <a class="button"
-                                    href="{{ app('Helper')->getRouteHref($linkUrl, app()->getLocale()) }}">{{ $linkLabel }}</a>
+                                    href="{{ app('Helper')->getRouteHref($linkUrl) }}">{{ $linkLabel }}</a>
                             @endif
                         @endif
                     </div>

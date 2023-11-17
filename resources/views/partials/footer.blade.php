@@ -20,15 +20,21 @@
                 <div class="footer-useful-link footer-hedding">
                     <h6 class="text-white mb-30 mt-10 text-uppercase">Navigation</h6>
                     <ul>
-                        <li><a href="{{ app('Helper')->getRouteHref('home', app()->getLocale()) }}">Home</a></li>
-                        <li><a href="{{ app('Helper')->getRouteHref('about-us', app()->getLocale()) }}">About Us</a>
-                        </li>
-                        <li><a href="{{ app('Helper')->getRouteHref('services', app()->getLocale()) }}">Services</a>
+                        <li><a
+                                href="{{ app('Helper')->getRouteHref('home') }}">{{ app('Helper')->getPageTitleByRouteName('home') }}</a>
                         </li>
                         <li><a
-                                href="{{ app('Helper')->getRouteHref('testimonials', app()->getLocale()) }}">Testimonials</a>
+                                href="{{ app('Helper')->getRouteHref('about-us') }}">{{ app('Helper')->getPageTitleByRouteName('about-us') }}</a>
                         </li>
-                        <li><a href="{{ app('Helper')->getRouteHref('contact', app()->getLocale()) }}">Contact</a></li>
+                        <li><a
+                                href="{{ app('Helper')->getRouteHref('services') }}">{{ app('Helper')->getPageTitleByRouteName('services') }}</a>
+                        </li>
+                        <li><a
+                                href="{{ app('Helper')->getRouteHref('testimonials') }}">{{ app('Helper')->getPageTitleByRouteName('testimonials') }}</a>
+                        </li>
+                        <li><a
+                                href="{{ app('Helper')->getRouteHref('contact') }}">{{ app('Helper')->getPageTitleByRouteName('contact') }}</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -36,9 +42,12 @@
                 <div class="footer-useful-link footer-hedding">
                     <h6 class="text-white mb-30 mt-10 text-uppercase">Useful Links</h6>
                     <ul>
-                        <li><a href="{{ app('Helper')->getRouteHref('data-privacy', app()->getLocale()) }}">Data Privacy</a></li>
-                        <li><a href="{{ app('Helper')->getRouteHref('imprint', app()->getLocale()) }}">Imprint</a></li>
-                        <li><a href="{{ app('Helper')->getRouteHref('sitemap', app()->getLocale()) }}">Sitemap</a></li>
+                        <li><a
+                                href="{{ app('Helper')->getRouteHref('data-privacy') }}">{{ app('Helper')->getPageTitleByRouteName('data-privacy') }}</a>
+                        </li>
+                        <li><a
+                                href="{{ app('Helper')->getRouteHref('imprint') }}">{{ app('Helper')->getPageTitleByRouteName('imprint') }}</a>
+                        </li>
                     </ul>
                 </div>
             </div>

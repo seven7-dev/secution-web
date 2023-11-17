@@ -4,7 +4,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         @foreach ($publicRoutes as $publicRoute)
             <url>
-                <loc>{{ app('Helper')->getRouteHref($publicRoute, app()->getLocale()) }}</loc>
+                <loc>{{ app('Helper')->getRouteHref($publicRoute) }}</loc>
                 <changefreq>weekly</changefreq>
                 <priority>{{ $publicRoute === 'home' ? '1.0' : '0.8' }}</priority>
             </url>

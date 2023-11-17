@@ -33,25 +33,24 @@
                         <div class="col-lg-12 col-md-12 position-relative">
                             <ul class="menu-logo">
                                 <li>
-                                    <a href="{{ app('Helper')->getRouteHref('home', app()->getLocale()) }}"><img
+                                    <a href="{{ app('Helper')->getRouteHref('home') }}"><img
                                             id="logo_img" src="{{ asset('images/logo.png') }}" alt="logo">
                                     </a>
                                 </li>
                             </ul>
                             <div class="menu-bar">
                                 <ul class="menu-links">
-                                    <li><a href="{{ app('Helper')->getRouteHref('home', app()->getLocale()) }}">Home</a>
+                                    <li><a href="{{ app('Helper')->getRouteHref('home') }}">{{ app('Helper')->getPageTitleByRouteName('home') }}</a>
                                     </li>
-                                    <li><a href="{{ app('Helper')->getRouteHref('about-us', app()->getLocale()) }}">About
-                                            Us</a></li>
+                                    <li><a href="{{ app('Helper')->getRouteHref('about-us') }}">{{ app('Helper')->getPageTitleByRouteName('about-us') }}</a></li>
                                     <li><a
-                                            href="{{ app('Helper')->getRouteHref('services', app()->getLocale()) }}">Services</a>
-                                    </li>
-                                    <li><a
-                                            href="{{ app('Helper')->getRouteHref('testimonials', app()->getLocale()) }}">Testimonials</a>
+                                            href="{{ app('Helper')->getRouteHref('services') }}">{{ app('Helper')->getPageTitleByRouteName('services') }}</a>
                                     </li>
                                     <li><a
-                                            href="{{ app('Helper')->getRouteHref('contact', app()->getLocale()) }}">Contact</a>
+                                            href="{{ app('Helper')->getRouteHref('testimonials') }}">{{ app('Helper')->getPageTitleByRouteName('testimonials') }}</a>
+                                    </li>
+                                    <li><a
+                                            href="{{ app('Helper')->getRouteHref('contact') }}">{{ app('Helper')->getPageTitleByRouteName('contact') }}</a>
                                     </li>
                                 </ul>
                             </div>

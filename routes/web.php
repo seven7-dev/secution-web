@@ -13,7 +13,6 @@ use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\TestimonialsController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MetaController;
-use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\SitemapXmlController;
 
 /*
@@ -28,7 +27,6 @@ Route::get('/referenzen', [TestimonialsController::class, 'index'])->name('testi
 Route::get('/kontakt', [ContactController::class, 'index'])->name('contact');
 Route::get('/datenschutzerklaerung', [MetaController::class, 'dataPrivacyIndex'])->name('data-privacy');
 Route::get('/impressum', [MetaController::class, 'imprintIndex'])->name('imprint');
-Route::get('/sitemap', [SitemapController::class, 'index'])->name('sitemap');
 Route::get('/sitemap.xml', [SitemapXmlController::class, 'index'])->name('sitemap_xml');
 
 Route::group(['prefix' => '{language?}', 'where' => ['language' => 'en']], function () {
@@ -39,6 +37,5 @@ Route::group(['prefix' => '{language?}', 'where' => ['language' => 'en']], funct
     Route::get('/kontakt', [ContactController::class, 'index'])->name('contact');
     Route::get('/datenschutzerklaerung', [MetaController::class, 'dataPrivacyIndex'])->name('data-privacy');
     Route::get('/impressum', [MetaController::class, 'imprintIndex'])->name('imprint');
-    Route::get('/sitemap', [SitemapController::class, 'index'])->name('sitemap');
     Route::get('/sitemap.xml', [SitemapXmlController::class, 'index'])->name('sitemap_xml');
 });

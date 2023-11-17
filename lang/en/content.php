@@ -10,6 +10,7 @@ return [
 
     'pages' => [
         'home' => [
+            'title' => 'Home',
             'elements' => [
                 'video_cta' => [
                     'headline' => 'Beautiful HTML5 Video background',
@@ -27,7 +28,26 @@ return [
                 ],
             ],
         ],
+        'about-us' => [
+            'title' => 'About us'
+        ],
+        'services' => [
+            'title' => 'Services'
+        ],
+        'testimonials' => [
+            'title' => 'Testimonials'
+        ],
+        'contact' => [
+            'title' => 'Contact'
+        ],
+        'imprint' => [
+            'title' => 'Imprint'
+        ],
+        'data-privacy' => [
+            'title' => 'Data privacy'
+        ],
         '404' => [
+            'title' => '404',
             'elements' => [
                 'not_found' => [
                     'headline' => 'Ooopps :(',

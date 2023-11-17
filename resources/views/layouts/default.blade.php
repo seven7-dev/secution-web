@@ -3,7 +3,7 @@
 
 <head>
     @include('includes.head')
-    {{-- @include('includes.styles') --}}
+    @include('includes.styles')
 </head>
 
 <body>
