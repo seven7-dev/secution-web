@@ -9,15 +9,16 @@ class NotFound extends BaseComponent
     public $text;
     public $backgroundTextHeadline;
     public $backgroundTextSubheadline;
-    public $linkLeftLabel;
-    public $linkRightLabel;
+    public $linkUrl;
+    public $linkLabel;
+    public $linkExternal;
 
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($cssClasses = null, $headline = null, $subheadline = null, $text = null, $backgroundTextHeadline = null, $backgroundTextSubheadline = null, $linkLeftLabel = null, $linkRightLabel = null)
+    public function __construct($cssClasses = null, $headline = null, $subheadline = null, $text = null, $backgroundTextHeadline = null, $backgroundTextSubheadline = null, $linkUrl = null, $linkLabel = null, $linkExternal = false)
     {
         parent::__construct($cssClasses);
         $this->headline = $headline;
@@ -25,8 +26,9 @@ class NotFound extends BaseComponent
         $this->text = $text;
         $this->backgroundTextHeadline = $backgroundTextHeadline;
         $this->backgroundTextSubheadline = $backgroundTextSubheadline;
-        $this->linkLeftLabel = $linkLeftLabel;
-        $this->linkRightLabel = $linkRightLabel;
+        $this->linkUrl = $linkUrl;
+        $this->linkLabel = $linkLabel;
+        $this->linkExternal = $linkExternal;
     }
 
     /**

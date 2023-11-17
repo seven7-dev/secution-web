@@ -17,4 +17,13 @@ class Helper
 
         return str_replace(' ', '', $phoneNumber);
     }
+
+    public static function getRouteHref($route, $locale)
+    {
+        if ($locale === config('app.fallback_locale')) {
+            return route($route);
+        } else {
+            return route($route, $locale);
+        }
+    }
 }

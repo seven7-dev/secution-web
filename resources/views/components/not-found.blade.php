@@ -20,17 +20,19 @@
                         <p>{{ $subheadline }}</p>
                     @endif
                 </div>
-                @if (!empty($text) || !empty($linkLeftLabel) || !empty($linkRightLabel))
+                @if (!empty($text) || (!empty($linkUrl) && !empty($linkLabel)))
                     <div class="error-info">
                         @if (!empty($text))
                             <p class="mb-50">{{ $text }}</p>
                         @endif
-                        @if (!empty($linkLeftLabel))
-                            <a class="button xs-mb-10"
-                                href="{{ route('home', app()->getLocale()) }}">{{ $linkLeftLabel }}</a>
-                        @endif
-                        @if (!empty($linkRightLabel))
-                            <a class="button" href="#">{{ $linkRightLabel }}</a>
+                        @if (!empty($linkUrl) && !empty($linkLabel))
+                            @if (!empty($linkExternal))
+                                <a class="button"
+                                    href="{{ $linkUrl }}" target="_blank">{{ $linkLabel }}</a>
+                            @else
+                                <a class="button"
+                                    href="{{ app('Helper')->getRouteHref($linkUrl, app()->getLocale()) }}">{{ $linkLabel }}</a>
+                            @endif
                         @endif
                     </div>
                 @endif

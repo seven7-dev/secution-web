@@ -39,13 +39,9 @@ return [
                             'subheadline' => 'Fehler',
                         ],
                     ],
-                    'links' => [
-                        'left' => [
-                            'label' => 'Zurück zur Startseite',
-                        ],
-                        'right' => [
-                            'label' => 'Zurück zur vorherigen Seite',
-                        ],
+                    'link' => [
+                        'url' => 'home',
+                        'label' => 'Zurück zur Startseite'
                     ],
                 ],
             ],

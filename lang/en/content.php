@@ -39,13 +39,9 @@ return [
                             'subheadline' => 'Error',
                         ],
                     ],
-                    'links' => [
-                        'left' => [
-                            'label' => 'Back to home',
-                        ],
-                        'right' => [
-                            'label' => 'Back to prev page',
-                        ],
+                    'link' => [
+                        'url' => 'home',
+                        'label' => 'Back to Home'
                     ],
                 ],
             ],
