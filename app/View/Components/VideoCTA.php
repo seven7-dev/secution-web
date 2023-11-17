@@ -22,7 +22,7 @@ class VideoCTA extends BaseComponent
         parent::__construct($cssClasses);
         $this->headline = $headline;
         $this->subheadline = $subheadline;
-        $this->videos = app('Helper')->groupVideosByFileExtension($videos);
+        $this->videos = $videos;
         $this->linkUrl = $linkUrl;
         $this->linkLabel = $linkLabel;
         $this->linkExternal = $linkExternal;

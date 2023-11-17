@@ -8,6 +8,10 @@
     <x-prices />
     <x-testimonials />
     <x-video-cta :headline="__('content.pages.home.elements.video_cta.headline')" :subheadline="__('content.pages.home.elements.video_cta.subheadline')" :linkUrl="__('content.pages.home.elements.video_cta.link.url')" :linkLabel="__('content.pages.home.elements.video_cta.link.label')"
-        videos="{{ __('content.pages.home.elements.video_cta.videos.mp4') }},{{ __('content.pages.home.elements.video_cta.videos.ogv') }},{{ __('content.pages.home.elements.video_cta.videos.webm') }}" />
+    :videos="[
+        'mp4' => __('content.pages.home.elements.video_cta.videos.mp4'),
+        'ogv' => __('content.pages.home.elements.video_cta.videos.ogv'),
+        'webm' => __('content.pages.home.elements.video_cta.videos.webm'),
+    ]" />
     <x-contact-us />
 @endsection
