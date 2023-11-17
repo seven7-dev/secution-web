@@ -23,12 +23,23 @@ use App\Http\Controllers\SitemapXmlController;
 |--------------------------------------------------------------------------
 */
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/about-us', [AboutUsController::class, 'index'])->name('about-us');
+Route::get('/ueber-uns', [AboutUsController::class, 'index'])->name('about-us');
 Route::get('/services', [ServicesController::class, 'index'])->name('services');
-Route::get('/testimonials', [TestimonialsController::class, 'index'])->name('testimonials');
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
-Route::get('/data-privacy', [MetaController::class, 'dataPrivacyIndex'])->name('data-privacy');
-Route::get('/imprint', [MetaController::class, 'imprintIndex'])->name('imprint');
-Route::get('/search', [SearchController::class, 'index'])->name('search');
+Route::get('/referenzen', [TestimonialsController::class, 'index'])->name('testimonials');
+Route::get('/kontakt', [ContactController::class, 'index'])->name('contact');
+Route::get('/datenschutzerklaerung', [MetaController::class, 'dataPrivacyIndex'])->name('data-privacy');
+Route::get('/impressum', [MetaController::class, 'imprintIndex'])->name('imprint');
 Route::get('/sitemap', [SitemapController::class, 'index'])->name('sitemap');
 Route::get('/sitemap.xml', [SitemapXmlController::class, 'index'])->name('sitemap_xml');
+
+Route::group(['prefix' => '{language?}', 'where' => ['language' => 'en']], function () {
+    Route::get('/', [HomeController::class, 'index'])->name('home');
+    Route::get('/ueber-uns', [AboutUsController::class, 'index'])->name('about-us');
+    Route::get('/services', [ServicesController::class, 'index'])->name('services');
+    Route::get('/referenzen', [TestimonialsController::class, 'index'])->name('testimonials');
+    Route::get('/kontakt', [ContactController::class, 'index'])->name('contact');
+    Route::get('/datenschutzerklaerung', [MetaController::class, 'dataPrivacyIndex'])->name('data-privacy');
+    Route::get('/impressum', [MetaController::class, 'imprintIndex'])->name('imprint');
+    Route::get('/sitemap', [SitemapController::class, 'index'])->name('sitemap');
+    Route::get('/sitemap.xml', [SitemapXmlController::class, 'index'])->name('sitemap_xml');
+});

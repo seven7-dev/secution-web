@@ -2,18 +2,30 @@
 
 namespace App\View\Components;
 
-use Illuminate\View\Component;
-
-class VideoCTA extends Component
+class VideoCTA extends BaseComponent
 {
+    public $headline;
+    public $subheadline;
+    public $videos;
+    public $linkUrl;
+    public $linkLabel;
+    public $linkExternal;
+    public $backgroundColor;
+
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($cssClasses = null, $headline = null, $subheadline = null, $videos = null, $linkUrl = null, $linkLabel = null, $linkExternal = false)
     {
-        //
+        parent::__construct($cssClasses);
+        $this->headline = $headline;
+        $this->subheadline = $subheadline;
+        $this->videos = app('Helper')->groupVideosByFileExtension($videos);
+        $this->linkUrl = $linkUrl;
+        $this->linkLabel = $linkLabel;
+        $this->linkExternal = $linkExternal;
     }
 
     /**

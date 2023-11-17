@@ -82,7 +82,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'de',
 
     /*
     |--------------------------------------------------------------------------
@@ -95,7 +95,20 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'de',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Available locales
+    |--------------------------------------------------------------------------
+    |
+    | All locales that works with the application.
+    |
+    */
+    'available_locales' => [
+        'Deutsch' => 'de',
+        'English' => 'en'
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -194,6 +207,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        /**
+         * Custom Service Providers
+         */
+        App\Providers\HelperServiceProvider::class,
 
     ],
 

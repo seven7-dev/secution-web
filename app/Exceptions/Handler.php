@@ -47,4 +47,27 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    /**
+     * Custom handling for 404 errors.
+     */
+    public function render($request, Throwable $exception)
+    {
+        // Remove default locale, if provided in the URL
+        if ($request->segment(1) === config('app.fallback_locale')) {
+
+            $newUrl = preg_replace('#/' . config('app.fallback_locale') . '(/|$)#', '/', $request->url());
+            $redirectUrl = rtrim($newUrl, '/');
+
+            return redirect($redirectUrl, 301);
+        }
+
+        // Set locale for 404 page, if available locale is provided in the URL
+        if (in_array($request->segment(1), config('app.available_locales')) && $request->segment(1) !== config('app.fallback_locale'))
+        {
+            app()->setLocale($request->segment(1));
+        }
+
+        return parent::render($request, $exception);
+    }
 }

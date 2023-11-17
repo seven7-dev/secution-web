@@ -17,4 +17,18 @@ class Helper
 
         return str_replace(' ', '', $phoneNumber);
     }
+
+    public static function groupVideosByFileExtension($string, $delimiter = ',')
+    {
+        if (empty($string)) return null;
+
+        $videos = [];
+
+        foreach (explode($delimiter, $string) as $video) {
+            $fileExtension = pathinfo($video, PATHINFO_EXTENSION);
+            $videos[$fileExtension] = $video;
+        }
+
+        return $videos;
+    }
 }
