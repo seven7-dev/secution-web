@@ -27,14 +27,8 @@
                         </ul>
                         <div class="social-icons social-border rounded color-hover mt-50">
                             <ul>
-                                <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li class="social-dribbble"><a href="#"><i class="fa fa-dribbble"></i> </a></li>
-                                <li class="social-vimeo"><a href="#"><i class="fa fa-vimeo"></i> </a></li>
-                                <li class="social-pinterest"><a href="#"><i class="fa fa-pinterest-p"></i> </a>
-                                </li>
-                                <li class="social-behance"><a href="#"><i class="fa fa-behance"></i> </a></li>
-                                <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i> </a></li>
+                                <li class="social-instagram"><a href="{{ env('APP_INSTAGRAM') }}" target="_blank"><i
+                                            class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>

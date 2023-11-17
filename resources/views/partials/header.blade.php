@@ -16,12 +16,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="topbar-social text-center text-md-end">
                         <ul>
-                            <li><a href="#"><span class="ti-facebook"></span></a></li>
-                            <li><a href="#"><span class="ti-instagram"></span></a></li>
-                            <li><a href="#"><span class="fa fa-google"></span></a></li>
-                            <li><a href="#"><span class="ti-twitter"></span></a></li>
-                            <li><a href="#"><span class="ti-linkedin"></span></a></li>
-                            <li><a href="#"><span class="ti-dribbble"></span></a></li>
+                            <li><a href="{{ env('APP_INSTAGRAM') }}" target="_blank"><span class="ti-instagram"></span></a></li>
                         </ul>
                     </div>
                 </div>

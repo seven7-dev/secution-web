@@ -11,10 +11,8 @@
                 </div>
                 <div class="social-icons color-hover">
                     <ul>
-                        <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social-dribbble"><a href="#"><i class="fa fa-dribbble"></i> </a></li>
-                        <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i> </a></li>
+                        <li class="social-instagram"><a href="{{ env('APP_INSTAGRAM') }}" target="_blank"><i
+                                    class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -46,7 +44,9 @@
                     <li><i class="fa fa-map-marker"></i>
                         <p>{{ env('APP_ADDRESS') }}</p>
                     </li>
-                    <li><i class="fa fa-phone"></i> <a href="tel:{{ \App\View\Helpers\Helper::sanitizePhoneNumber(env('APP_PHONE')) }}"> <span>{{ env('APP_PHONE') }} </span> </a> </li>
+                    <li><i class="fa fa-phone"></i> <a
+                            href="tel:{{ \App\View\Helpers\Helper::sanitizePhoneNumber(env('APP_PHONE')) }}">
+                            <span>{{ env('APP_PHONE') }} </span> </a> </li>
                     <li><i class="fa fa-envelope-o"></i>Email: {{ env('APP_MAIL') }}</li>
                 </ul>
             </div>
