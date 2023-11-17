@@ -40,10 +40,17 @@ mix.scripts([
     'resources/theme/js/dependencies/nicescroll/jquery.nicescroll.min.js'
 ], 'resources/theme/js/dependencies.min.js')
 
+// Custom JS Compiling
+mix.scripts([
+    // Language Switcher
+    'resources/js/language-switcher.min.js',
+], 'resources/js/custom.min.js')
+
 // App JS Compiling
 mix.scripts([
     'resources/theme/js/theme.min.js',
     'resources/theme/js/dependencies.min.js',
+    'resources/js/custom.min.js',
 ], 'public/js/app.min.js');
 
 // CSS Compiling

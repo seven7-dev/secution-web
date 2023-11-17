@@ -19,6 +19,8 @@
 
         @include('partials.header')
 
+        <x-locale-switcher />
+
         <main>
             @yield('content')
         </main>
