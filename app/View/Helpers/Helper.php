@@ -44,7 +44,20 @@ class Helper
                 return __('content.pages.' . $routeName . '.title');
             }
         } else {
-            return env('APP_NAME');
+            if ($withAppName) {
+                return __('content.pages.404.title') . ' – ' . env('APP_NAME');
+            } else {
+                return __('content.pages.404.title');
+            }
+        }
+    }
+
+    public static function getBreadcrumbDescriptionByRouteName($routeName)
+    {
+        if (Lang::has('content.pages.' . $routeName . '.breadcrumb.description')) {
+            return __('content.pages.' . $routeName . '.breadcrumb.description');
+        } else {
+            return __('content.pages.404.breadcrumb.description');
         }
     }
 }

@@ -3,14 +3,30 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-title-name">
-                    <h1>Contact 02</h1>
-                    <p>We know the secret of your success</p>
+                    @if (request()->route() !== null)
+                        <h1>{{ app('Helper')->getPageTitleByRouteName(request()->route()->getName()) }}
+                        </h1>
+                        <p>{{ app('Helper')->getBreadcrumbDescriptionByRouteName(request()->route()->getName()) }}
+                        </p>
+                    @else
+                        <h1>{{ app('Helper')->getPageTitleByRouteName(request()->route()) }}
+                        </h1>
+                        <p>{{ app('Helper')->getBreadcrumbDescriptionByRouteName(request()->route()) }}
+                        </p>
+                    @endif
                 </div>
                 <ul class="page-breadcrumb">
-                    <li><a href="#"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i>
+                    <li><a href="{{ app('Helper')->getRouteHref('home') }}"><i class="fa fa-home"></i>
+                            {{ app('Helper')->getPageTitleByRouteName('home') }}</a> <i
+                            class="fa fa-angle-double-right"></i>
                     </li>
-                    <li><a href="#">page</a> <i class="fa fa-angle-double-right"></i></li>
-                    <li><span>Contact 02</span> </li>
+                    @if (request()->route() !== null)
+                        <li><span>{{ app('Helper')->getPageTitleByRouteName(request()->route()->getName()) }}</span>
+                        </li>
+                    @else
+                        <li><span>{{ app('Helper')->getPageTitleByRouteName(request()->route()) }}</span>
+                        </li>
+                    @endif
                 </ul>
             </div>
         </div>

@@ -29,25 +29,46 @@ return [
             ],
         ],
         'about-us' => [
-            'title' => 'Über uns'
+            'title' => 'Über uns',
+            'breadcrumb' => [
+                'description' => 'Wir kennen das Geheimnis Ihres Erfolgs'
+            ],
         ],
         'services' => [
-            'title' => 'Services'
+            'title' => 'Services',
+            'breadcrumb' => [
+                'description' => 'Wir kennen das Geheimnis Ihres Erfolgs'
+            ],
         ],
         'testimonials' => [
-            'title' => 'Referenzen'
+            'title' => 'Referenzen',
+            'breadcrumb' => [
+                'description' => 'Wir kennen das Geheimnis Ihres Erfolgs'
+            ],
         ],
         'contact' => [
-            'title' => 'Kontakt'
+            'title' => 'Kontakt',
+            'breadcrumb' => [
+                'description' => 'Wir kennen das Geheimnis Ihres Erfolgs'
+            ],
         ],
         'imprint' => [
-            'title' => 'Impressum'
+            'title' => 'Impressum',
+            'breadcrumb' => [
+                'description' => 'Wir kennen das Geheimnis Ihres Erfolgs'
+            ],
         ],
         'data-privacy' => [
-            'title' => 'Datenschutzerklärung'
+            'title' => 'Datenschutzerklärung',
+            'breadcrumb' => [
+                'description' => 'Wir kennen das Geheimnis Ihres Erfolgs'
+            ],
         ],
         '404' => [
             'title' => '404',
+            'breadcrumb' => [
+                'description' => 'Wir kennen das Geheimnis Ihres Erfolgs'
+            ],
             'elements' => [
                 'not_found' => [
                     'headline' => 'Ooopps :(',

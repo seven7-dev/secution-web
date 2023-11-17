@@ -29,25 +29,46 @@ return [
             ],
         ],
         'about-us' => [
-            'title' => 'About us'
+            'title' => 'About us',
+            'breadcrumb' => [
+                'description' => 'We know the secret of your success'
+            ],
         ],
         'services' => [
-            'title' => 'Services'
+            'title' => 'Services',
+            'breadcrumb' => [
+                'description' => 'We know the secret of your success'
+            ],
         ],
         'testimonials' => [
-            'title' => 'Testimonials'
+            'title' => 'Testimonials',
+            'breadcrumb' => [
+                'description' => 'We know the secret of your success'
+            ],
         ],
         'contact' => [
-            'title' => 'Contact'
+            'title' => 'Contact',
+            'breadcrumb' => [
+                'description' => 'We know the secret of your success'
+            ],
         ],
         'imprint' => [
-            'title' => 'Imprint'
+            'title' => 'Imprint',
+            'breadcrumb' => [
+                'description' => 'We know the secret of your success'
+            ],
         ],
         'data-privacy' => [
-            'title' => 'Data privacy'
+            'title' => 'Data privacy',
+            'breadcrumb' => [
+                'description' => 'We know the secret of your success'
+            ],
         ],
         '404' => [
             'title' => '404',
+            'breadcrumb' => [
+                'description' => 'We know the secret of your success'
+            ],
             'elements' => [
                 'not_found' => [
                     'headline' => 'Ooopps :(',
