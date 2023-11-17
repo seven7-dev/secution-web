@@ -43,7 +43,7 @@ mix.scripts([
 // Custom JS Compiling
 mix.scripts([
     // Language Switcher
-    'resources/js/language-switcher.min.js',
+    'resources/js/language-switcher.js',
 ], 'resources/js/custom.min.js')
 
 // App JS Compiling
