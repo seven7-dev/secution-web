@@ -13,7 +13,6 @@ use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\TestimonialsController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MetaController;
-use App\Http\Controllers\SearchController;
 use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\SitemapXmlController;
 
