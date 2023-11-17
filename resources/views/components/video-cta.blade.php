@@ -17,7 +17,7 @@
                     @if (!empty($linkUrl && $linkLabel))
                         <div class="text-center">
                             <a target="blank" href="{{ $linkUrl }}" class="button button-border-white"
-                                @if ($linkExternal) target="_blank" @endif>
+                                @if (!empty($linkExternal)) target="_blank" @endif>
                                 <span>{{ $linkLabel }}</span>
                             </a>
                         </div>
