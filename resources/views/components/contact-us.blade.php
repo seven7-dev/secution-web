@@ -15,24 +15,31 @@
                         <p class="mb-30">It would be great to hear from you! If you got any questions, please do not
                             hesitate to send me a message. I am looking forward to hearing from you!</p>
                     </div>
-                    <div id="formmessage">Success/Error Message Goes Here</div>
-                    <form id="contactform" method="post" action="php/contact-form.php">
+                    <div id="formmessage" style="display:block">
+                        <div class="success" style="display:none">Success</div>
+                        <div class="error" style="display:none">Error</div>
+                    </div>
+                    <form class="contactus-form" method="post" action="{{ route('contact.submit') }}">
                         <div class="contact-form clearfix">
                             <div class="section-field">
                                 <input id="name" type="text" placeholder="Name*" class="form-control"
-                                    name="name">
+                                    name="name" required>
                             </div>
                             <div class="section-field">
-                                <input type="email" placeholder="Email*" class="form-control" name="email">
+                                <input type="email" placeholder="Email*" class="form-control" name="email" required>
                             </div>
                             <div class="section-field">
-                                <input type="text" placeholder="Phone*" class="form-control" name="phone">
+                                <input type="text" placeholder="Phone*" class="form-control" name="phone" required>
+                            </div>
+                            <div class="section-field">
+                                <input id="subject" type="text" placeholder="Subject*" class="form-control"
+                                    name="subject" required>
                             </div>
                             <div class="section-field textarea">
-                                <textarea class="input-message form-control" placeholder="Comment*" rows="7" name="message"></textarea>
+                                <textarea class="input-message form-control" placeholder="Comment*" rows="7" name="msg" required></textarea>
                             </div>
                             <!-- Google reCaptch-->
-                            <input type="hidden" name="action" value="sendEmail">
+                            <input type="text" name="company">
                             <button id="submit" name="submit" type="submit" value="Send"
                                 class="button button-border white mb-20"><span> Send message </span> <i
                                     class="fa fa-paper-plane"></i></button>

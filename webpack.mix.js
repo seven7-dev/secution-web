@@ -44,6 +44,10 @@ mix.scripts([
 mix.scripts([
     // Language Switcher
     'resources/js/language-switcher.js',
+    // Axios Library
+    'resources/js/libs/axios.min.js',
+    // Contact Us
+    'resources/js/contact-us.js',
 ], 'resources/js/custom.min.js')
 
 // App JS Compiling

@@ -25,6 +25,7 @@ Route::get('/ueber-uns', [AboutUsController::class, 'index'])->name('about-us');
 Route::get('/services', [ServicesController::class, 'index'])->name('services');
 Route::get('/referenzen', [TestimonialsController::class, 'index'])->name('testimonials');
 Route::get('/kontakt', [ContactController::class, 'index'])->name('contact');
+Route::post('/kontakt', [ContactController::class, 'submit'])->name('contact.submit');
 Route::get('/datenschutzerklaerung', [MetaController::class, 'dataPrivacyIndex'])->name('data-privacy');
 Route::get('/impressum', [MetaController::class, 'imprintIndex'])->name('imprint');
 Route::get('/sitemap.xml', [SitemapXmlController::class, 'index'])->name('sitemap_xml');
