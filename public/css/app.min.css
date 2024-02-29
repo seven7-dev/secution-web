@@ -977,6 +977,10 @@ footer.footer .footer-widget a {
 #contact-us .map img, .contact-2 .map img {
   height: 100vh;
 }
+#contact-us .contactus-form input[name=company], .contact-2 .contactus-form input[name=company] {
+  opacity: 0;
+  display: none;
+}
 
 .rev-slider .tp-leftarrow:hover:before,
 .rev-slider .tp-rightarrow:hover:before {
@@ -1191,6 +1195,13 @@ ul.list li:after {
 }
 .language-switcher .locale_changer .skin-theme-switcher img {
   border: 0;
+}
+
+form .parsley-errors-list {
+  list-style: none;
+}
+form .form-control.parsley-error {
+  background: #fcd1d3 !important;
 }
 
 /*# sourceMappingURL=app.min.css.map*/

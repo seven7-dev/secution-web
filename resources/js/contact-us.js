@@ -1,4 +1,8 @@
 $(function () {
+  $(document).find('form').parsley({
+    errorsMessagesDisabled: true
+  });
+  
   $(document).on('submit', '.contactus-form', (e) => {
     e.preventDefault();
     submitForm(e.currentTarget);

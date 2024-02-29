@@ -28,4 +28,10 @@
             height: 100vh;
         }
     }
+    .contactus-form {
+        input[name="company"] {
+            opacity: 0;
+            display:none;
+        }
+    }
 }

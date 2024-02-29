@@ -46,6 +46,8 @@ mix.scripts([
     'resources/js/language-switcher.js',
     // Axios Library
     'resources/js/libs/axios.min.js',
+    // Parsley Library
+    'resources/js/libs/parsley.min.js',
     // Contact Us
     'resources/js/contact-us.js',
 ], 'resources/js/custom.min.js')

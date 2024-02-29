@@ -1,0 +1,10 @@
+form {
+    .parsley-errors-list {
+        list-style: none;
+    }
+    .form-control {
+        &.parsley-error {
+            background: $light-red !important;
+        }
+    }
+}
